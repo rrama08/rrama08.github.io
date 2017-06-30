@@ -16,7 +16,7 @@
 title: Renjith Ramachandran
 email: rramachandran@smu.edu
 description: > # this means to ignore newlines until "baseurl:"
-  My blog to publish some thoughts and strategies on Technology, Strategy, Management
+  My blog to publish my thoughts on Technology, Strategy, Management
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: hello
