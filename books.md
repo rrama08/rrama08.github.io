@@ -1,0 +1,21 @@
+---
+layout: default
+title: Books I am Reading
+permalink: /books/
+---
+
+# Books I am reading
+I have significantly reduced TV time and refocusing on reading, so this is my current bookshelf. Mix of Books, Audible listening during drives etc...
+
+## Business (June)
+* [The Hard Thing About Hard Things](https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205)
+* [Competing Against Luck: The Story of Innovation and Customer Choice](https://www.amazon.com/Competing-Against-Luck-Innovation-Customer/dp/0062435612/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1498842815&sr=8-1)
+* [Five Dysfunctions of a Team](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756)
+* [The 10x Rule](https://www.amazon.com/10X-Rule-Difference-Between-Success/dp/0470627603)
+
+## Technical/Architecture (May & June)
+* [Akka in Action](https://www.amazon.com/Akka-Action-Raymond-Roestenburg/dp/1617291013)
+* [Building Microservices](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems-ebook/dp/B00T3N7XB4/ref=mt_kindle?_encoding=UTF8&me=)
+* [Pragmatic Scala](https://pragprog.com/book/vsscala2/pragmatic-scala)
+* [Learning Apache Spark2](https://www.safaribooksonline.com/library/view/learning-apache-spark/9781785885136/)
+* [The Definitive ANTLR Reference](https://pragprog.com/book/tpantlr2/the-definitive-antlr-4-reference)
