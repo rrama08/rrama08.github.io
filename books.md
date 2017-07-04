@@ -5,7 +5,7 @@ permalink: /books/
 ---
 
 # Books I am reading
-I have significantly reduced TV time and refocusing on reading, so this is my current bookshelf. Mix of Books, Audible listening during drives etc...
+This is my current bookshelf. Mix of Books, Audible listening during drives etc...
 
 ## Business (June)
 * [The Hard Thing About Hard Things](https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205)
