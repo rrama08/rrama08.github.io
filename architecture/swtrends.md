@@ -5,7 +5,7 @@ permalink: /swtrends/
 ---
 
 # 5 Key Software Trends of 2017
-Note: This is the skeleton on Trends in software development for 2017. My approach is to incrementally build the content of this article over a period of time. Favoring Agile approach I am posting this before it is fully complete..Happy reading!
+Note: In progress article..Happy reading!
 
 ## 1. Data Innovation
 All about Data. Its acquisition, storage and leverage
@@ -21,12 +21,10 @@ All about Data. Its acquisition, storage and leverage
 * Why not Data Oceans?
 
 ### Data Insights and leverage
-* Machine learning
-* Data Science
-* AI
+* Data Science - Machine learning, AI
 
 
-## 2. Artificial Intelligence
+## 2. Intelligent Apps
 ### Machine Learning
 * classification and Clustering
 * Linear and Logistic Regression
@@ -34,7 +32,7 @@ All about Data. Its acquisition, storage and leverage
 * K means
 * etc
 
-### ANN
+### AI
 * Supervised Learning - Articial Neural Networks
 * Unsupervised Learning - Genetic Algos, Reinforcement Learning
 
@@ -43,6 +41,8 @@ All about Data. Its acquisition, storage and leverage
 * Non-Blocking architecture
 * Stateless Architecture
 * Elastic computing
+* [Reactive Manifesto](http://www.reactivemanifesto.org/)
+
 
 ## 4. API Innovation
 
