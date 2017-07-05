@@ -7,6 +7,9 @@ permalink: /swtrends/
 # 5 Key Software Trends of 2017
 Note: In progress article..Happy reading!
 
+![Image Placeholder](/assets/images/swtrends.png)
+
+
 ## 1. Data Innovation
 All about Data. Its acquisition, storage and leverage
 
