@@ -14,14 +14,13 @@ Note: In progress article..Happy reading!
 All about Data. Its acquisition, storage and leverage
 
 ### Data Acquisition
-* Big Data
-* Fast Data - Most relevant for most organizations
-* Hybrid or Lambda architecture
+* Fast Data/Data Streaming
+* Event based Data Streaming using Flume/Kafka
 
 ### Data Storage and organization
 * Distributed File Systems (Hadoop HDFS, S3, etc)
 * Data lakes (Unstructured, Structured or Hybrid Storage)
-* Why not Data Oceans?
+
 
 ### Data Insights and leverage
 * Data Science - Machine learning, AI
@@ -38,6 +37,7 @@ All about Data. Its acquisition, storage and leverage
 ### AI
 * Supervised Learning - Articial Neural Networks
 * Unsupervised Learning - Genetic Algos, Reinforcement Learning
+* [AI Techniques](http://theory.stanford.edu/~amitp/GameProgramming/AITechniques.html)
 
 ## 3. Reactive architecture
 * Scalability in 3 dimensions (Horizontal, Vertical and Partitioning)
@@ -65,7 +65,7 @@ All about Data. Its acquisition, storage and leverage
 * RAML
 
 ## 5. Micro Services Architecture
-Independently deployable small modular services with high functional cohesion and loosely coupled interaction with other micro-services through APIs(REST, g-rpc etc).
+*Independently deployable* small modular services with high functional cohesion and loosely coupled interaction with other micro-services through APIs(REST, g-rpc etc).
 
 This architecture is an anti-monolith pattern and a successor to the SOA design pattern. As opposed to highly functional Enterprise service bus driven architecture of SOA, MS patterns favor a light weight messaging approach (dumb pipes connecting smart functional services).
 
