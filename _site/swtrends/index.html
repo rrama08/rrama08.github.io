@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/swtrends/">
   <link rel="alternate" type="application/rss+xml" title="Renjith Ramachandran" href="/feed.xml">
-  
+  <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
   
 </head>
 
@@ -47,6 +49,16 @@
             
             
             <a class="page-link" href="/about/">About</a>
+            
+          
+            
+            
+            <a class="page-link" href="/architecture_sprint/">LAMA</a>
+            
+          
+            
+            
+            <a class="page-link" href="/books/">Books I am Reading</a>
             
           
             
@@ -101,16 +113,14 @@
 
 <h3 id="data-acquisition">Data Acquisition</h3>
 <ul>
-  <li>Big Data</li>
-  <li>Fast Data - Most relevant for most organizations</li>
-  <li>Hybrid or Lambda architecture</li>
+  <li>Fast Data/Data Streaming</li>
+  <li>Event based Data Streaming using Flume/Kafka</li>
 </ul>
 
 <h3 id="data-storage-and-organization">Data Storage and organization</h3>
 <ul>
   <li>Distributed File Systems (Hadoop HDFS, S3, etc)</li>
   <li>Data lakes (Unstructured, Structured or Hybrid Storage)</li>
-  <li>Why not Data Oceans?</li>
 </ul>
 
 <h3 id="data-insights-and-leverage">Data Insights and leverage</h3>
@@ -132,6 +142,7 @@
 <ul>
   <li>Supervised Learning - Articial Neural Networks</li>
   <li>Unsupervised Learning - Genetic Algos, Reinforcement Learning</li>
+  <li><a href="http://theory.stanford.edu/~amitp/GameProgramming/AITechniques.html">AI Techniques</a></li>
 </ul>
 
 <h2 id="3-reactive-architecture">3. Reactive architecture</h2>
@@ -167,7 +178,7 @@
 </ul>
 
 <h2 id="5-micro-services-architecture">5. Micro Services Architecture</h2>
-<p>Independently deployable small modular services with high functional cohesion and loosely coupled interaction with other micro-services through APIs(REST, g-rpc etc).</p>
+<p><em>Independently deployable</em> small modular services with high functional cohesion and loosely coupled interaction with other micro-services through APIs(REST, g-rpc etc).</p>
 
 <p>This architecture is an anti-monolith pattern and a successor to the SOA design pattern. As opposed to highly functional Enterprise service bus driven architecture of SOA, MS patterns favor a light weight messaging approach (dumb pipes connecting smart functional services).</p>
 
