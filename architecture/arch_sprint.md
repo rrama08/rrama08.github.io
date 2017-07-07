@@ -68,16 +68,16 @@ The second day is all about debating, drawing and re-drawing the conceptual view
 **Objective:** Achieve conceptual clarity of the system across all team members
 
 * Kick off Discussion (captured in sticky notes and grouped into one section of the room. Alternatively, a google doc or a collaborative editing software may also be used)
-- Baseline principles of the architecture (Add this to the Architecture Story).
-- The known Non functional requirements and constraints known at the second day (Add this to the Architecture Story).
-- Major patterns & blue print of the architecture (Micro-Services, Fast Data, Reactive etc)
+ - Baseline principles of the architecture (Add this to the Architecture Story).
+ - The known Non functional requirements and constraints known at the second day (Add this to the Architecture Story).
+ - Major patterns & blue print of the architecture (Micro-Services, Fast Data, Reactive etc)
 * Build the conceptual architecture
-- All team members independently draw they perspective of the architecture based on the kick off discussion. Based on what each team member is comfortable with they can use pen & paper, ppt, ipad drawing apps etc
-- The Conceptual view must stay away from representing aspects of technical architecture, unless there is a pervasive understanding of the stack in the org.
+ - All team members independently draw they perspective of the architecture based on the kick off discussion. Based on what each team member is comfortable with they can use pen & paper, ppt, ipad drawing apps etc
+ - The Conceptual view must stay away from representing aspects of technical architecture, unless there is a pervasive understanding of the stack in the org.
 * Conceptual Architecture Presentation
-- Each team member will present their view of the conceptual architecture and others ask questions and clarifications till sufficient detail is drawn out
+ - Each team member will present their view of the conceptual architecture and others ask questions and clarifications till sufficient detail is drawn out
 * Collaborative creation
-- At the end of the day the team collaboratively creates the architecture. The drawing may be done by some one with good Powerpoint/Keynote skills, but the process is collaborative. The person who builds the drawing is also responsible for taking the drawing away at the end of the day and polishing it to make it a polished looking view of the architecture
+ - At the end of the day the team collaboratively creates the architecture. The drawing may be done by some one with good Powerpoint/Keynote skills, but the process is collaborative. The person who builds the drawing is also responsible for taking the drawing away at the end of the day and polishing it to make it a polished looking view of the architecture
 
 **Output:** Conceptual architecture view of the system in the form of a widely shareable format (PPT, Keynote) that can be used in presentations and communications. This document is added to the shared drive.
 
@@ -90,15 +90,15 @@ The 3rd day is all about defining the technical Architecture of the system. This
 - 15 Min review of the conceptual architecture diagram created the previous day and reaffirmation of all the decisions from prior day.
 - Discussion of the non-functional requirements of the system. System Availability, performance and other 'ilities may be discussed here (Add this to the Architecture Story).
 * Debate the technical Architecture
-- The team members should start discussion of potential frameworks, architectures, tech stack (Java/Node/Rails/LAMP etc), Data bases, Storage, Caching systems etc.
-- Proponents of each stack should give their reasoning and the team should have opportunity to ask questions and weigh the pros and cons of the stack. Considerations should include
-+ Existing knowledge in the organization
-+ Prior experience with the stack
-+ Industry comps for similar products
-+ Potential disruption opportunity. for e.g. Using Spark Data streaming and processing to create a billing system that can disrupt traditional approaches.
+ - The team members should start discussion of potential frameworks, architectures, tech stack (Java/Node/Rails/LAMP etc), Data bases, Storage, Caching systems etc.
+ - Proponents of each stack should give their reasoning and the team should have opportunity to ask questions and weigh the pros and cons of the stack. Considerations should include
+  + Existing knowledge in the organization
+  + Prior experience with the stack
+  + Industry comps for similar products
+  + Potential disruption opportunity. for e.g. Using Spark Data streaming and processing to create a billing system that can disrupt traditional approaches.
 * Outline the technical Architecture
-- The team outlines the technical architecture as bullet points captured in the Architecture Story document. In some areas they may be ready to make decisions on the technical architecture, where as in other areas they may choose to preserve optionality that can be resolved through technical spikes executed during Sprints.
-- It is not necessary to create a diagram to represent the technical architecture. The technical architecture can simply be captured as a series of bullet points.
+ - The team outlines the technical architecture as bullet points captured in the Architecture Story document. In some areas they may be ready to make decisions on the technical architecture, where as in other areas they may choose to preserve optionality that can be resolved through technical spikes executed during Sprints.
+ - It is not necessary to create a diagram to represent the technical architecture. The technical architecture can simply be captured as a series of bullet points.
 
 **Output:**
 * A brief bullet point format list of technical architecture along with any optionalities that will be decided later described in text in the Architecture Story document.
@@ -110,20 +110,20 @@ Day 4 is all about running and the run time architecture (Hence LAMA Legs!)
 **Objective:** Achieve operational clarity of the system across all team members
 
 * Kick off discussion
-- Review non functional requirements related to run time and operational aspects including availability, scalability, manageability and maintainability.
-- Discuss non functional constraints (for e.g. Data storage in cloud/ Any constraints caused by the Clients including regulatory/HIPPA/PCI compliance etc)
-- Discuss anticipated computing and storage growth needs and volumetrics of the system
-- Discuss Run time architecture principles including containerization
-- Discuss automation needs and principles (Build, test, performance, deployment automation)
-- Discuss environment types needed
-- Discuss the Deployment cadence requirements (Continuous Delivery vs Deployment)
+ - Review non functional requirements related to run time and operational aspects including availability, scalability, manageability and maintainability.
+ - Discuss non functional constraints (for e.g. Data storage in cloud/ Any constraints caused by the Clients including regulatory/HIPPA/PCI compliance etc)
+ - Discuss anticipated computing and storage growth needs and volumetrics of the system
+ - Discuss Run time architecture principles including containerization
+ - Discuss automation needs and principles (Build, test, performance, deployment automation)
+ - Discuss environment types needed
+ - Discuss the Deployment cadence requirements (Continuous Delivery vs Deployment)
 
 All relevant portions of the above topics should be added to the Architecture Story document.
 
 * Outline the Run time architecture
-- The team should debate the pros and cons of the possible run time architecture options. At this stage, it may be beneficial to draw a decision tree on the board that may help through the discussion.
-- The team should select a good enough approach for the run time architecture with the understanding that this decision may be reviewed and modified at a later time. At this stage, the decision could almost be a gun point decision of the run time architecture
-- Document the decision as simple bullet points in the Architecture Story
+ - The team should debate the pros and cons of the possible run time architecture options. At this stage, it may be beneficial to draw a decision tree on the board that may help through the discussion.
+ - The team should select a good enough approach for the run time architecture with the understanding that this decision may be reviewed and modified at a later time. At this stage, the decision could almost be a gun point decision of the run time architecture
+ - Document the decision as simple bullet points in the Architecture Story
 
 
 **Output:**
