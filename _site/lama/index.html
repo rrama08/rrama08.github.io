@@ -10,7 +10,7 @@
   <meta name="description" content="My blog to publish my thoughts on Technology, Strategy, Management">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/architecture_sprint/">
+  <link rel="canonical" href="http://localhost:4000/lama/">
   <link rel="alternate" type="application/rss+xml" title="Renjith Ramachandran" href="/feed.xml">
   <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -53,7 +53,7 @@
           
             
             
-            <a class="page-link" href="/architecture_sprint/">LAMA</a>
+            <a class="page-link" href="/lama/">LAMA</a>
             
           
             
@@ -103,18 +103,18 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1 id="better-agile-through-lean-architecture">Better Agile through Lean Architecture</h1>
+        <h1 id="lean-architecture-method-for-agile">Lean Architecture Method for Agile</h1>
 <p>I have been lately doing some thinking on a better approach for integration of holistic systems thinking and architecture into agile execution with out impacting speed and agility. I have built a rough outline of a process that can be used with low friction and considerable value to the overall system. I call this the Lean Architecture Method for Agile (LAMA)</p>
 
-<p>Key principles of LAMA are:</p>
+<p>7 Key principles of LAMA are:</p>
 <ol>
-  <li><strong>Collaborative:</strong> Architecture is a collaborative process.</li>
-  <li><strong>Systemic:</strong> Think and establish clear principles at a system level, act locally at the Sprint team level.</li>
-  <li><strong>Preserve Optionality:</strong> Preserve optionality on some design decisions till they start impacting deliverables, but make obvious design decisions early to reduce ambiguity.</li>
-  <li><strong>Iterative Architecture:</strong> Architecture should be done iteratively (No big Upfront Design) and should be weaved into the execution. Architecture must be flexible to be updated as the team learns through the project.</li>
-  <li><strong>Architecture Decision Log:</strong> Keep a catalog of architecture decisions as a fluid list. They will act as a guideline with the Agile teams.</li>
-  <li><strong>Architecture Story:</strong> Have an approach to effectively communicate the architecture to wider audience. An architecture not communicated is an architecture that is not implemented as intended.</li>
-  <li><strong>Architecture Huddles:</strong> Establish a practice of periodic architecture huddles, to update assumptions, confirm/re-confirm decisions, and ensure alignment.</li>
+  <li><strong>Collaborate on Architecture:</strong> Architecture is a collaborative process. There is no room place for Ivory tower architectures in modern software development.</li>
+  <li><strong>Think Systemically:</strong> Think and establish clear principles at a system level, act locally at the Sprint team level.</li>
+  <li><strong>Preserve Optionality:</strong> Preserve optionality on some design decisions till they start impacting deliverables, but make obvious design decisions early to reduce ambiguity and keep the decision space lean and focused.</li>
+  <li><strong>Keep Architecture Dynamic:</strong> Architecture should be done iteratively (No big Upfront Design) and should be weaved into the execution. Architecture must be flexible to be updated as the team learns through the project.</li>
+  <li><strong>Log Architecture Decisions:</strong> Keep a catalog of architecture decisions as a fluid list. They will act as a guideline with the Agile teams. The best log is version controlled similar to code.</li>
+  <li><strong>Create an Architecture Story:</strong> Have an approach to effectively communicate the architecture to wider audience. An architecture not communicated is an architecture that is not implemented as intended.</li>
+  <li><strong>Encourage Architecture Huddles:</strong> Establish a practice of periodic architecture huddles, to update assumptions, confirm/re-confirm decisions, and ensure alignment between all parties.</li>
 </ol>
 
 <h2 id="how-is-the-lama-initiated">How is the LAMA initiated?</h2>
@@ -122,7 +122,7 @@
 
 <p>The time boxing of this approach has been inspired by the Design Sprint approach by Google Ventures <a href="http://www.gv.com/sprint/">Link</a></p>
 
-<p><img src="/assets/images/LamaImmersion.png" alt="Immersion Process" /></p>
+<p><img src="/assets/images/Lamaimmersion.png" alt="Immersion Process" /></p>
 
 <p>As the output of the LAMA immersion Huddle, the team should have a comprehensive view of the architecture represented by multiple view points.</p>
 
@@ -132,8 +132,8 @@
 <p>The immersion huddle team consists if the following team members for a development org with multiple sprint teams and a product architect or senior developer who acts as a lead across teams. Depending upon the structure of the organization this can be adjusted for a single sprint team to include all members of the team.</p>
 
 <ol>
-  <li>SCRUM Master</li>
-  <li>Product Owner</li>
+  <li>SCRUM Master/s</li>
+  <li>Product Owner/s</li>
   <li>Product Architect</li>
   <li>Technical representative from each Sprint team. For small teams, all team members may be invited.</li>
 </ol>
@@ -157,13 +157,14 @@
 <ul>
   <li>Creating the product vision statement</li>
   <li>Define all the user personas of the system</li>
-  <li>Creating a functional decomposition of the system into groups of functions which act as a pre-cursor to the user stories. The functions are broken down to the epic level</li>
+  <li>Create a functional decomposition of the system into groups of functions which act as a pre-cursor to the user stories. The functions are broken down to the epic level</li>
   <li>Understand and group and re-group functions till a sufficiently optimal grouping of functions is achieved</li>
   <li>Debate initial priority of the functions of the system</li>
+  <li>Debate relevance of functions</li>
   <li>Discuss the timeline imperatives of when the MVP should be launched. This will help in prioritization as well as some architecture discussions on what architecture will be used.</li>
 </ul>
 
-<p>At the end of day 1 the team should have a complete understanding of the functionality of the system at a feature/epic level.</p>
+<p>At the end of day 1 the team should have a complete understanding of the functionality of the system at a feature/epic level and should have a great start in the process of defining user stories for the system.</p>
 
 <p><strong>Output:</strong> A functionally hierarchical view of the system, and an initial skeleton of a product story that describes the purpose and vision of the system.</p>
 
@@ -174,16 +175,25 @@
 
 <ul>
   <li>Kick off Discussion (captured in sticky notes and grouped into one section of the room. Alternatively, a google doc or a collaborative editing software may also be used)
-– Baseline principles of the architecture (Add this to the Architecture Story).
-– The known Non functional requirements and constraints known at the second day (Add this to the Architecture Story).
-– Major patterns &amp; blue print of the architecture (Micro-Services, Fast Data, Reactive etc)</li>
-  <li>Build the conceptual architecture
-– All team members independently draw they perspective of the architecture based on the kick off discussion. Based on what each team member is comfortable with they can use pen &amp; paper, ppt, ipad drawing apps etc
-– The Conceptual view must stay away from representing aspects of technical architecture, unless there is a pervasive understanding of the stack in the org.</li>
+    <ul>
+      <li>Baseline principles of the architecture (Add this to the Architecture Story).</li>
+      <li>The known Non functional requirements and constraints known at the second day (Add this to the Architecture Story).</li>
+      <li>Major patterns &amp; blue print of the architecture (Micro-Services, Fast Data, Reactive etc)</li>
+      <li>Build the conceptual architecture</li>
+      <li>All team members independently draw they perspective of the architecture based on the kick off discussion. Based on what each team member is comfortable with they can use pen &amp; paper, ppt, ipad drawing apps etc</li>
+      <li>The Conceptual view must stay away from representing aspects of technical architecture, unless there is a pervasive understanding of the stack in the org.</li>
+    </ul>
+  </li>
   <li>Conceptual Architecture Presentation
-– Each team member will present their view of the conceptual architecture and others ask questions and clarifications till sufficient detail is drawn out</li>
+    <ul>
+      <li>Each team member will present their view of the conceptual architecture and others ask questions and clarifications till sufficient detail is drawn out</li>
+    </ul>
+  </li>
   <li>Collaborative creation
-– At the end of the day the team collaboratively creates the architecture. The drawing may be done by some one with good Powerpoint/Keynote skills, but the process is collaborative. The person who builds the drawing is also responsible for taking the drawing away at the end of the day and polishing it to make it a polished looking view of the architecture</li>
+    <ul>
+      <li>At the end of the day the team collaboratively creates the architecture. The drawing may be done by some one with good Powerpoint/Keynote skills, but the process is collaborative. The person who builds the drawing is also responsible for taking the drawing away at the end of the day and polishing it to make it a polished looking view of the architecture</li>
+    </ul>
+  </li>
 </ul>
 
 <p><strong>Output:</strong> Conceptual architecture view of the system in the form of a widely shareable format (PPT, Keynote) that can be used in presentations and communications. This document is added to the shared drive.</p>
@@ -195,18 +205,30 @@
 
 <ul>
   <li>Kick off discussion
-– 15 Min review of the conceptual architecture diagram created the previous day and reaffirmation of all the decisions from prior day.
-– Discussion of the non-functional requirements of the system. System Availability, performance and other ‘ilities may be discussed here (Add this to the Architecture Story).</li>
+    <ul>
+      <li>15 Min review of the conceptual architecture diagram created the previous day and reaffirmation of all the decisions from prior day.</li>
+      <li>Discussion of the non-functional requirements of the system. System Availability, performance and other ‘ilities may be discussed here (Add this to the Architecture Story).</li>
+    </ul>
+  </li>
   <li>Debate the technical Architecture
-– The team members should start discussion of potential frameworks, architectures, tech stack (Java/Node/Rails/LAMP etc), Data bases, Storage, Caching systems etc.
-– Proponents of each stack should give their reasoning and the team should have opportunity to ask questions and weigh the pros and cons of the stack. Considerations should include
-— Existing knowledge in the organization
-— Prior experience with the stack
-— Industry comps for similar products
-— Potential disruption opportunity. for e.g. Using Spark Data streaming and processing to create a billing system that can disrupt traditional approaches.</li>
+    <ul>
+      <li>The team members should start discussion of potential frameworks, architectures, tech stack (Java/Node/Rails/LAMP etc), Data bases, Storage, Caching systems etc.</li>
+      <li>Proponents of each stack should give their reasoning and the team should have opportunity to ask questions and weigh the pros and cons of the stack. Considerations should include
+        <ul>
+          <li>Existing knowledge in the organization</li>
+          <li>Prior experience with the stack</li>
+          <li>Industry comps for similar products</li>
+          <li>Potential disruption opportunity. for e.g. Using Spark Data streaming and processing to create a billing system that can disrupt traditional approaches.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
   <li>Outline the technical Architecture
-– The team outlines the technical architecture as bullet points captured in the Architecture Story document. In some areas they may be ready to make decisions on the technical architecture, where as in other areas they may choose to preserve optionality that can be resolved through technical spikes executed during Sprints.
-– It is not necessary to create a diagram to represent the technical architecture. The technical architecture can simply be captured as a series of bullet points.</li>
+    <ul>
+      <li>The team outlines the technical architecture as bullet points captured in the Architecture Story document. In some areas they may be ready to make decisions on the technical architecture, where as in other areas they may choose to preserve optionality that can be resolved through technical spikes executed during Sprints.</li>
+      <li>It is not necessary to create a diagram to represent the technical architecture. The technical architecture can simply be captured as a series of bullet points.</li>
+    </ul>
+  </li>
 </ul>
 
 <p><strong>Output:</strong></p>
@@ -222,22 +244,28 @@
 
 <ul>
   <li>Kick off discussion
-** Review non functional requirements related to run time and operational aspects including availability, scalability, manageability and maintainability.
-– Discuss non functional constraints (for e.g. Data storage in cloud/ Any constraints caused by the Clients including regulatory/HIPPA/PCI compliance etc)
-– Discuss anticipated computing and storage growth needs and volumetrics of the system
-– Discuss Run time architecture principles including containerization
-– Discuss automation needs and principles (Build, test, performance, deployment automation)
-– Discuss environment types needed
-– Discuss the Deployment cadence requirements (Continuous Delivery vs Deployment)</li>
+    <ul>
+      <li>Review non functional requirements related to run time and operational aspects including availability, scalability, manageability and maintainability.</li>
+      <li>Discuss non functional constraints (for e.g. Data storage in cloud/ Any constraints caused by the Clients including regulatory/HIPPA/PCI compliance etc)</li>
+      <li>Discuss anticipated computing and storage growth needs and volumetrics of the system</li>
+      <li>Discuss Run time architecture principles including containerization</li>
+      <li>Discuss automation needs and principles (Build, test, performance, deployment automation)</li>
+      <li>Discuss environment types needed</li>
+      <li>Discuss the Deployment cadence requirements (Continuous Delivery vs Deployment)</li>
+    </ul>
+  </li>
 </ul>
 
 <p>All relevant portions of the above topics should be added to the Architecture Story document.</p>
 
 <ul>
   <li>Outline the Run time architecture
-– The team should debate the pros and cons of the possible run time architecture options. At this stage, it may be beneficial to draw a decision tree on the board that may help through the discussion.
-– The team should select a good enough approach for the run time architecture with the understanding that this decision may be reviewed and modified at a later time. At this stage, the decision could almost be a gun point decision of the run time architecture
-– Document the decision as simple bullet points in the Architecture Story</li>
+    <ul>
+      <li>The team should debate the pros and cons of the possible run time architecture options. At this stage, it may be beneficial to draw a decision tree on the board that may help through the discussion.</li>
+      <li>The team should select a good enough approach for the run time architecture with the understanding that this decision may be reviewed and modified at a later time. At this stage, the decision could almost be a gun point decision of the run time architecture</li>
+      <li>Document the decision as simple bullet points in the Architecture Story</li>
+    </ul>
+  </li>
 </ul>
 
 <p><strong>Output:</strong></p>
@@ -272,6 +300,15 @@
 <p><img src="/assets/images/lamaprocess.png" alt="Image Placeholder" /></p>
 
 <p>The Architecture must continue to be developed and refined through the execution process through a series of one day LAMA Micro Huddles. These are one day events where a specific area of architecture is explore and disambiguated further. the LAMA Micro Huddles must be spread across the execution of the Sprint. A good example for such a huddle is for the Data or Domain model review once the teams have put together their structure. I recommend a micro huddle initially once in 2 Sprints and subsequently once every 3 or 4 sprints.</p>
+
+<h2 id="benefits-of-lama">Benefits of LAMA</h2>
+<p>I will conclude with the benefits of the LAMA Process for the organization</p>
+
+<ol>
+  <li>The overall team will have a mastery of the project, concepts and architecture in an extremely short amount of time in a very structured manner which will lead to better decisions, lower waste and faster development</li>
+  <li>The process will leave all the traditional flexibility of the agile model in place with the LAMA overlay adding a layer of architecture competency over the execution</li>
+  <li>The process symbiotically fits into the agile processes while at the same time de-risking the project with a small amount of upfront strategy and systems thinking.</li>
+</ol>
 
       </div>
     </main>
