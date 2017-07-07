@@ -26,7 +26,7 @@ The time boxing of this approach has been inspired by the Design Sprint approach
 
 As the output of the LAMA immersion Huddle, the team should have a comprehensive view of the architecture represented by multiple view points.
 
-<img src="/assets/images/ArchitectureViews.png" width="400">
+![Architecture States](/assets/images/ArchitectureViews.png)
 
 ## LAMA Immersion Huddle team
 The immersion huddle team consists if the following team members for a development org with multiple sprint teams and a product architect or senior developer who acts as a lead across teams. Depending upon the structure of the organization this can be adjusted for a single sprint team to include all members of the team.
@@ -152,6 +152,10 @@ The Second half of the day should be reserved for the pre-scheduled presentation
 ![Image Placeholder](/assets/images/lamaprocess.png)
 
 The Architecture must continue to be developed and refined through the execution process through a series of one day LAMA Micro Huddles. These are one day events where a specific area of architecture is explore and disambiguated further. the LAMA Micro Huddles must be spread across the execution of the Sprint. A good example for such a huddle is for the Data or Domain model review once the teams have put together their structure. I recommend a micro huddle initially once in 2 Sprints and subsequently once every 3 or 4 sprints.
+
+The team will typically navigate between LAMA huddles and sprints as shown below
+
+![LAMA States](/assets/images/lamastates.png)
 
 ## Benefits of LAMA
 I will conclude with the benefits of the LAMA Process for the organization
