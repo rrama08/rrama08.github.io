@@ -151,7 +151,7 @@ The Second half of the day should be reserved for the pre-scheduled presentation
 
 ![Image Placeholder](/assets/images/lamaprocess.png)
 
-The Architecture must continue to be developed and refined through the execution process through a series of one day LAMA Micro Huddles. These are one day events where a specific area of architecture is explore and disambiguated further. the LAMA Micro Huddles must be spread across the execution of the Sprint. A good example for such a huddle is for the Data or Domain model review once the teams have put together their structure. I recommend a micro huddle initially once in 2 Sprints and subsequently once every 3 or 4 sprints.
+The Architecture must continue to be developed and refined through the execution process through a series of one day LAMA Micro Huddles. These are one day events where a specific area of architecture is explored and disambiguated further. the LAMA Micro Huddles must be spread across the execution of the Sprint. A good example for such a huddle is for the Data or Domain model review once the teams have put together their domain models. I recommend a micro huddle initially once in 2 Sprints and subsequently once every 3 or 4 sprints.
 
 The team will typically navigate between LAMA huddles and sprints as shown below
 
