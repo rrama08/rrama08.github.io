@@ -18,11 +18,11 @@ Key principles of LAMA are:
 1. **Architecture Huddles:** Establish a practice of periodic architecture huddles, to update assumptions, confirm/re-confirm decisions, and ensure alignment.
 
 ## How is the LAMA initiated?
-LAMA is initiated with a 5 day Immersion Huddle with clear objectives and deliverables for each day and a deliverable at the end of the 5 day effort. The immersion huddle is intentionally set across multiple days to give participants plenty to time to reflect and think independently and with in teams. For smaller projects, part of the day can be used, but I would recommend to keep the process to 5 days.
+LAMA is initiated with a 5 day Immersion Huddle with clear objectives and deliverables for each day and a deliverable at the end of the 5 day effort. The immersion huddle is intentionally set across multiple days to give participants plenty to time to reflect and think independently and with in teams. For smaller projects, part of the day can be used, but I would recommend to keep the process to 5 days.  
 
 The time boxing of this approach has been inspired by the Design Sprint approach by Google Ventures [Link](http://www.gv.com/sprint/)
 
-![Immersion Process](/assets/images/LamaImmersion.png)
+![Immersion Process](/assets/images/Lamaimmersion.png)
 
 As the output of the LAMA immersion Huddle, the team should have a comprehensive view of the architecture represented by multiple view points.
 
