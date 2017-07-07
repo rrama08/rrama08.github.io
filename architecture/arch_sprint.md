@@ -8,14 +8,14 @@ published: true
 # Lean Architecture Method for Agile
 I have been lately doing some thinking on a better approach for integration of holistic systems thinking and architecture into agile execution with out impacting speed and agility. I have built a rough outline of a process that can be used with low friction and considerable value to the overall system. I call this the Lean Architecture Method for Agile (LAMA)
 
-Key principles of LAMA are:
-1. **Collaborative:** Architecture is a collaborative process.
-1. **Systemic:** Think and establish clear principles at a system level, act locally at the Sprint team level.
+7 Key principles of LAMA are:
+1. **Collaborate on Architecture:** Architecture is a collaborative process. There is no room place for Ivory tower architectures in modern software architecture
+1. **Think Systemically:** Think and establish clear principles at a system level, act locally at the Sprint team level.
 1. **Preserve Optionality:** Preserve optionality on some design decisions till they start impacting deliverables, but make obvious design decisions early to reduce ambiguity.
-1. **Iterative Architecture:** Architecture should be done iteratively (No big Upfront Design) and should be weaved into the execution. Architecture must be flexible to be updated as the team learns through the project.
-1. **Architecture Decision Log:** Keep a catalog of architecture decisions as a fluid list. They will act as a guideline with the Agile teams.
-1. **Architecture Story:** Have an approach to effectively communicate the architecture to wider audience. An architecture not communicated is an architecture that is not implemented as intended.
-1. **Architecture Huddles:** Establish a practice of periodic architecture huddles, to update assumptions, confirm/re-confirm decisions, and ensure alignment.
+1. **Keep Architecture Dynamic:** Architecture should be done iteratively (No big Upfront Design) and should be weaved into the execution. Architecture must be flexible to be updated as the team learns through the project.
+1. **Log Architecture Decisions:** Keep a catalog of architecture decisions as a fluid list. They will act as a guideline with the Agile teams. The best log is version controlled similar to code.
+1. **Create an Architecture Story:** Have an approach to effectively communicate the architecture to wider audience. An architecture not communicated is an architecture that is not implemented as intended.
+1. **Encourage Architecture Huddles:** Establish a practice of periodic architecture huddles, to update assumptions, confirm/re-confirm decisions, and ensure alignment between all parties.
 
 ## How is the LAMA initiated?
 LAMA is initiated with a 5 day Immersion Huddle with clear objectives and deliverables for each day and a deliverable at the end of the 5 day effort. The immersion huddle is intentionally set across multiple days to give participants plenty to time to reflect and think independently and with in teams. For smaller projects, part of the day can be used, but I would recommend to keep the process to 5 days.  
@@ -151,3 +151,10 @@ The Second half of the day should be reserved for the pre-scheduled presentation
 ![Image Placeholder](/assets/images/lamaprocess.png)
 
 The Architecture must continue to be developed and refined through the execution process through a series of one day LAMA Micro Huddles. These are one day events where a specific area of architecture is explore and disambiguated further. the LAMA Micro Huddles must be spread across the execution of the Sprint. A good example for such a huddle is for the Data or Domain model review once the teams have put together their structure. I recommend a micro huddle initially once in 2 Sprints and subsequently once every 3 or 4 sprints.
+
+## Benefits of LAMA
+I will conclude with the benefits of the LAMA Process for the organization
+
+1. The overall team will have a mastery of the project, concepts and architecture in an extremely short amount of time in a very structured manner which will lead to better decisions, lower waste and faster development
+1. The process will leave all the traditional flexibility of the agile model in place with the LAMA overlay adding a layer of architecture competency over the execution
+1. The process symbiotically fits into the agile processes while at the same time de-risking the project with a small amount of upfront strategy and systems thinking.
