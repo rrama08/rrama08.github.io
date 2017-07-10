@@ -40,7 +40,7 @@ The process is done across 5 days. In preparation for this you need the followin
 1. A good widescreen TV for projecting screens
 1. A good collaborative document editing software such as Google Doc/Atlassian Confluence/Wiki etc
 1. A Shared directory such as Google drive, Box, Drop Box etc where a LAMA directory has been setup to store all artifacts
-1. An Architecture Story document created to capture the discussion outputs
+1. A Product Architecture Story document created to capture the discussion outputs
 
 ### Monday - Functional Immersion
 Establish the baseline understanding of the product across all members of the audience, to ensure that everyone has the same basic understanding of the system. The activities of this day include
@@ -57,10 +57,10 @@ Establish the baseline understanding of the product across all members of the au
 
 At the end of day 1 the team should have a complete understanding of the functionality of the system at a feature/epic level and should have a great start in the process of defining user stories for the system.
 
-**Output:** A functionally hierarchical view of the system, and an initial skeleton of a product story that describes the purpose and vision of the system.
+**Output:** A functionally hierarchical view of the system, and an initial skeleton of a product architecture story that describes the purpose and vision of the system.
 
 ### Tuesday - Conceptual Immersion
-The second day is all about debating, drawing and re-drawing the conceptual view of the architecture. Every participant including the product manager can and should participate in this exercise.
+The second day is all about debating, drawing and re-drawing the conceptual view of the architecture and solidifying the conceptual structure of the system. Every participant including the product manager can and should participate in this exercise.
 
 **Objective:** Achieve conceptual clarity of the system across all team members
 
@@ -94,11 +94,11 @@ The 3rd day is all about defining the technical Architecture of the system. This
     * Industry comps for similar products
     * Potential disruption opportunity. for e.g. Using Spark Data streaming and processing to create a billing system that can disrupt traditional approaches.
 * Outline the technical Architecture
-  * The team outlines the technical architecture as bullet points captured in the Architecture Story document. In some areas they may be ready to make decisions on the technical architecture, where as in other areas they may choose to preserve optionality that can be resolved through technical spikes executed during Sprints.
+  * The team outlines the technical architecture as bullet points captured in the Product Architecture Story document. In some areas they may be ready to make decisions on the technical architecture, where as in other areas they may choose to preserve optionality that can be resolved through technical spikes executed during Sprints.
   * It is not necessary to create a diagram to represent the technical architecture. The technical architecture can simply be captured as a series of bullet points.
 
 **Output:**
-* A brief bullet point format list of technical architecture along with any optionalities that will be decided later described in text in the Architecture Story document.
+* A brief bullet point format list of technical architecture along with any optionalities that will be decided later described in text in the product architecture story.
 * Any decisions captured as a part of the decision log
 
 ### Thursday - Runtime Immersion
@@ -115,12 +115,12 @@ Day 4 is all about running and the run time architecture
   * Discuss environment types needed
   * Discuss the Deployment cadence requirements (Continuous Delivery vs Deployment)
 
-All relevant portions of the above topics should be added to the Architecture Story document.
+All relevant portions of the above topics should be added to the product architecture story document.
 
 * Outline the Run time architecture
   * The team should debate the pros and cons of the possible run time architecture options. At this stage, it may be beneficial to draw a decision tree on the board that may help through the discussion.
   * The team should select a good enough approach for the run time architecture with the understanding that this decision may be reviewed and modified at a later time. At this stage, the decision could almost be a gun point decision of the run time architecture
-  * Document the decision as simple bullet points in the Architecture Story
+  * Document the decision as simple bullet points in the product architecture story
 
 
 **Output:**
@@ -140,9 +140,9 @@ This day should be set into 2 Parts
 First half of the day should be focused on creating a presentation of the architecture using all the material created from 4 days of discussion. One of the team members who have good presentation building skills should drive the creation of the presentation and the team should designate some one who will lead the presentation. Everyone contributes to the presentation. Some guidelines:
 * Keep the slides to a maximum of 10 slides
 * Use big fonts and plenty of pictures
-* Favor simplicity instead of exhaustiveness. Address details in questions and answers and use the Architecture story to answer questions.
+* Favor simplicity instead of exhaustiveness. Address details in questions and answers and use the product architecture story to answer questions.
 
-The Second half of the day should be reserved for the pre-scheduled presentation. All questions and answers should be scribed into a Q&A Section of the Product Story for later use and clarity. The team should feel accomplished after an exhaustive 5 day process and should feel a sense of complete expertise of the system and the approach used to build the system.
+The Second half of the day should be reserved for the pre-scheduled presentation. All questions and answers should be scribed into a Q&A Section of the product architecture story for later use and clarity. The team should feel accomplished after an exhaustive 5 day process and should feel a sense of complete expertise of the system and the approach used to build the system.
 
 ## After the Architecture Immersion Sprint
 
