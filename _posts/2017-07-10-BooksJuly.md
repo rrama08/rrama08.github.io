@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Books I am Reading
 ---
 
 # Books I am reading - July 2017

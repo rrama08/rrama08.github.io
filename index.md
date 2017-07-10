@@ -7,7 +7,4 @@ layout: home
 ## [5 Key Software trends of 2017](swtrends)
 In progress article that I will be completing over next couple of weeks
 
-## [My reading list](books)
-Business, Technical, Self-Help reading
-
 # Posts
