@@ -18,25 +18,22 @@ I have been lately doing some thinking on a better approach for integration of h
 1. **Encourage Architecture Huddles:** Establish a practice of periodic architecture huddles, to update assumptions, confirm/re-confirm decisions, and ensure alignment between all parties.
 
 ## How is the LAMA initiated?
-LAMA is initiated with a 5 day Immersion Huddle with clear objectives and deliverables for each day and a deliverable at the end of the 5 day effort. The immersion huddle is intentionally set across multiple days to give participants plenty to time to reflect and think independently and with in teams. For smaller projects, part of the day can be used, but I would recommend to keep the process to 5 days.  
-
-The time boxing of this approach has been inspired by the Design Sprint approach by Google Ventures [Link](http://www.gv.com/sprint/)
+LAMA is initiated with a 5 day Architecture Immersion Sprint (AIS) with clear objectives and deliverables for each day and a deliverable at the end of the 5 day effort. The AIS is intentionally set across multiple days to give participants plenty to time to reflect and think independently and with in teams. For smaller projects, part of the day can be used, but I would recommend to keep the process to 5 days.  
 
 ![Immersion Process](/assets/images/Lamaimmersion.png)
 
-As the output of the LAMA immersion Huddle, the team should have a comprehensive view of the architecture represented by multiple view points.
+As the output of the AIS, the team should have a comprehensive view of the architecture represented by multiple view points.
 
 ![Architecture States](/assets/images/ArchitectureViews.png)
-
-## LAMA Immersion Huddle team
-The immersion huddle team consists if the following team members for a development org with multiple sprint teams and a product architect or senior developer who acts as a lead across teams. Depending upon the structure of the organization this can be adjusted for a single sprint team to include all members of the team.
+## LAMA  team
+The architecture immersion sprint team consists if the following team members for a development org with multiple sprint teams and a product architect or senior developer who acts as a lead across teams. Depending upon the structure of the organization this can be adjusted for a single sprint team to include all members of the team.
 
 1. SCRUM Master/s
 1. Product Owner/s
 1. Product Architect
-1. Technical representative from each Sprint team. For small teams, all team members may be invited.
+1. Technical representative from each development sprint team. For small teams, all team members may be invited.
 
-## LAMA Immersion Huddle Process
+## LAMA Architecture Immersion Sprint
 The process is done across 5 days. In preparation for this you need the following:
 
 1. A Conference room with plenty of whiteboard space and space for Sticky notes.
@@ -147,13 +144,13 @@ First half of the day should be focused on creating a presentation of the archit
 
 The Second half of the day should be reserved for the pre-scheduled presentation. All questions and answers should be scribed into a Q&A Section of the Product Story for later use and clarity. The team should feel accomplished after an exhaustive 5 day process and should feel a sense of complete expertise of the system and the approach used to build the system.
 
-## After the Immersion Huddle
+## After the Architecture Immersion Sprint
 
 ![Image Placeholder](/assets/images/lamaprocess.png)
 
-The Architecture must continue to be developed and refined through the execution process through a series of one day LAMA Micro Huddles. These are one day events where a specific area of architecture is explored and disambiguated further. the LAMA Micro Huddles must be spread across the execution of the Sprint. A good example for such a huddle is for the Data or Domain model review once the teams have put together their domain models. I recommend a micro huddle initially once in 2 Sprints and subsequently once every 3 or 4 sprints.
+The Architecture must continue to be developed and refined through the execution process through a series of one day LAMA Huddles. These are one day events where a specific area of architecture is explored and disambiguated further. the LAMA Huddles must be spread across the execution of the Sprint. A good example for such a huddle is for the Data or Domain model review once the teams have put together their domain models. I recommend a huddle initially once in 2 Sprints and subsequently once every 3 or 4 sprints.
 
-The team will typically navigate between LAMA huddles and sprints as shown below
+The team will typically navigate between LAMA huddles and development sprints as shown below
 
 ![LAMA States](/assets/images/lamastates.png)
 
@@ -163,3 +160,9 @@ I will conclude with the benefits of the LAMA Process for the organization
 1. Diffusion of Knowledge through upfront collaborative thinking. This leads to better decisions, less waste and faster delivery of value.
 2. Zero disruption to agile. This process works seamlessly with agile and weaves to existing agile practices.
 3. The process de-risks the agile project further with a small amount of upfront strategy and systems thinking and reduces future technical debt
+
+## Acknowledgements
+* This concept has been inspired by the Design Sprint approach by Google Ventures [Link](http://www.gv.com/sprint/)
+* Integrating architecture into Agile has been well documented in couple of practices - SAFE and DAD. What I am proposing a lighter weight approach that may be suitable/sufficient in many cases
+  * [SAFE](http://www.scaledagileframework.com)
+  * [DAD](http://www.disciplinedagiledelivery.com)
