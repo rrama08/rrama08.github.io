@@ -12,7 +12,7 @@ I have been lately doing some thinking on a better approach for integration of h
 1. **Collaborate on Architecture:** Architecture is a collaborative process. There is no room place for Ivory tower architectures in modern software development.
 1. **Think Systemically:** Think and establish clear principles at a system level, act locally at the Sprint team level.
 1. **Preserve Optionality:** Preserve optionality on some design decisions till they start impacting deliverables, but make obvious design decisions early to reduce ambiguity and keep the decision space lean and focused.
-1. **Keep Architecture Dynamic:** Architecture should be done iteratively (No big Upfront Design) and should be weaved into the execution. Architecture must be flexible to be updated as the team learns through the project.
+1. **Keep Architecture Flexible:** Architecture should be done iteratively (No big Upfront Design) and should be weaved into the execution. Architecture must be flexible to be updated as the team learns through the project.
 1. **Log Architecture Decisions:** Keep a catalog of architecture decisions as a fluid list. They will act as a guideline with the Agile teams. The best log is version controlled similar to code.
 1. **Create an Architecture Story:** Have an approach to effectively communicate the architecture to wider audience. An architecture not communicated is an architecture that is not implemented as intended.
 1. **Encourage Architecture Huddles:** Establish a practice of periodic architecture huddles, to update assumptions, confirm/re-confirm decisions, and ensure alignment between all parties.
@@ -50,7 +50,7 @@ Establish the baseline understanding of the product across all members of the au
 
 **Objective:** Achieve functional clarity of the system across all team members
 
-* Creating the product vision statement
+* Creating or Articulating (if it has already been created) the product vision statement
 * Define all the user personas of the system
 * Create a functional decomposition of the system into groups of functions which act as a pre-cursor to the user stories. The functions are broken down to the epic level
 * Understand and group and re-group functions till a sufficiently optimal grouping of functions is achieved
@@ -82,7 +82,7 @@ The second day is all about debating, drawing and re-drawing the conceptual view
 **Output:** Conceptual architecture view of the system in the form of a widely shareable format (PPT, Keynote) that can be used in presentations and communications. This document is added to the shared drive.
 
 ### Wednesday - Technical Immersion
-The 3rd day is all about defining the technical Architecture of the system. This is the core of any technical system hence the LAMA Heart which makes all the plumbing work. This is where the technical members of the team should take the lead and start making basic decisions about the technical stack that can meet the functional and non-functional requirements and meet the needs of the project.
+The 3rd day is all about defining the technical Architecture of the system. This is where the technical members of the team should take the lead and start making basic decisions about the technical stack that can meet the functional and non-functional requirements and meet the needs of the project.
 
 **Objective:** Achieve technical clarity of the system across all team members
 
@@ -160,6 +160,6 @@ The team will typically navigate between LAMA huddles and sprints as shown below
 ## Benefits of LAMA
 I will conclude with the benefits of the LAMA Process for the organization
 
-1. The overall team will have a mastery of the project, concepts and architecture in an extremely short amount of time in a very structured manner which will lead to better decisions, lower waste and faster development
-1. The process will leave all the traditional flexibility of the agile model in place with the LAMA overlay adding a layer of architecture competency over the execution
-1. The process symbiotically fits into the agile processes while at the same time de-risking the project with a small amount of upfront strategy and systems thinking.
+1. Diffusion of Knowledge through upfront collaborative thinking. This leads to better decisions, less waste and faster delivery of value.
+2. Zero disruption to agile. This process works seamlessly with agile and weaves to existing agile practices.
+3. The process de-risks the agile project further with a small amount of upfront strategy and systems thinking and reduces future technical debt
