@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: article
 title: LAMA
 permalink: /lama/
+comments: true
 published: true
 ---
 
