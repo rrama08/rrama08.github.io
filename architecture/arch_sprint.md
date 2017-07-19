@@ -11,8 +11,8 @@ I have been lately doing some thinking on a better approach for integration of h
 
 7 Key principles of LAMA are:
 1. **Collaborate on Architecture:** Architecture is a collaborative process. There is no room place for Ivory tower architectures in modern software development.
-1. **Think Systemically:** Think and establish clear principles at a system level, act locally at the Sprint team level.
-1. **Preserve and balance optionality:** Preserve optionality on some design decisions till they start impacting deliverables, but make obvious design decisions early to reduce ambiguity and keep the decision space lean and focused.
+1. **Think Systemically:** Think and establish clear principles at a system level, which enable teams to act locally based on these principles at the Sprint team level.
+1. **Preserve optionality:** Preserve optionality on some design decisions till they start impacting deliverables, but make obvious design decisions early to reduce ambiguity and keep the decision space lean and focused.
 1. **Keep Architecture Flexible:** Architecture should be done iteratively (No big Upfront Design) and should be weaved into the execution. Architecture must be flexible to be updated as the team learns through the project.
 1. **Log Architecture Decisions:** Keep a catalog of architecture decisions as a fluid list. They will act as a guideline with the Agile teams. The best log is version controlled similar to code.
 1. **Create an Architecture Story:** Have an approach to effectively communicate the architecture to wider audience. An architecture not communicated is an architecture that is not implemented as intended.
