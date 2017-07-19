@@ -12,7 +12,7 @@ I have been lately doing some thinking on a better approach for integration of h
 7 Key principles of LAMA are:
 1. **Collaborate on Architecture:** Architecture is a collaborative process. There is no room place for Ivory tower architectures in modern software development.
 1. **Think Systemically:** Think and establish clear principles at a system level, act locally at the Sprint team level.
-1. **Preserve Optionality:** Preserve optionality on some design decisions till they start impacting deliverables, but make obvious design decisions early to reduce ambiguity and keep the decision space lean and focused.
+1. **Preserve and balance optionality:** Preserve optionality on some design decisions till they start impacting deliverables, but make obvious design decisions early to reduce ambiguity and keep the decision space lean and focused.
 1. **Keep Architecture Flexible:** Architecture should be done iteratively (No big Upfront Design) and should be weaved into the execution. Architecture must be flexible to be updated as the team learns through the project.
 1. **Log Architecture Decisions:** Keep a catalog of architecture decisions as a fluid list. They will act as a guideline with the Agile teams. The best log is version controlled similar to code.
 1. **Create an Architecture Story:** Have an approach to effectively communicate the architecture to wider audience. An architecture not communicated is an architecture that is not implemented as intended.
@@ -61,7 +61,7 @@ At the end of day 1 the team should have a complete understanding of the functio
 **Output:** A functionally hierarchical view of the system, and an initial skeleton of a product architecture story that describes the purpose and vision of the system.
 
 ### Tuesday - Conceptual Immersion
-The second day is all about debating, drawing and re-drawing the conceptual view of the architecture and solidifying the conceptual structure of the system. Every participant including the product manager can and should participate in this exercise.
+The second day is all about debating, drawing and re-drawing the conceptual view of the architecture and solidifying the conceptual structure of the system in everyones mind. Every participant including the product manager can and should participate in this exercise.
 
 **Objective:** Achieve conceptual clarity of the system across all team members
 
@@ -101,6 +101,7 @@ The 3rd day is all about defining the technical Architecture of the system. This
 **Output:**
 * A brief bullet point format list of technical architecture along with any optionalities that will be decided later described in text in the product architecture story.
 * Any decisions captured as a part of the decision log
+* Updates to the product architecture story
 
 ### Thursday - Runtime Immersion
 Day 4 is all about running and the run time architecture
@@ -120,13 +121,14 @@ All relevant portions of the above topics should be added to the product archite
 
 * Outline the Run time architecture
   * The team should debate the pros and cons of the possible run time architecture options. At this stage, it may be beneficial to draw a decision tree on the board that may help through the discussion.
-  * The team should select a good enough approach for the run time architecture with the understanding that this decision may be reviewed and modified at a later time. At this stage, the decision could almost be a gun point decision of the run time architecture
-  * Document the decision as simple bullet points in the product architecture story
+  * The team should select a good enough approach for the run time architecture with the understanding that this decision may be reviewed and modified at a later time.
+  * Document the decision as simple bullet points or diagrams in the product architecture story
 
 
 **Output:**
 * A brief bullet point format description of the run time architecture
 * Any decisions captured as a part of the decision log
+* Updates to the architecture story on the current approach to run time architecture
 
 ### Friday - Presentation
 This day should be focused on presenting the architecture to a wider audience not in the room. This includes
@@ -134,7 +136,7 @@ This day should be focused on presenting the architecture to a wider audience no
 * All the team members
 * Executives and leaders from the organization who are involved or are stake holders of the project.
 
-*Objective:* Achieve architecture clarity of the system across a wide audience of stakeholders, team members and contributors.
+*Objective:* Achieve architecture clarity of the system across a wide audience of stakeholders, team members and contributors and get early feedback on the architecture.
 
 This day should be set into 2 Parts
 
@@ -149,7 +151,7 @@ The Second half of the day should be reserved for the pre-scheduled presentation
 
 ![Image Placeholder](/assets/images/lamaprocess.png)
 
-The Architecture must continue to be developed and refined through the execution process through a series of one day LAMA Huddles. These are one day events where a specific area of architecture is explored and disambiguated further. the LAMA Huddles must be spread across the execution of the Sprint. A good example for such a huddle is for the Data or Domain model review once the teams have put together their domain models. I recommend a huddle initially once in 2 Sprints and subsequently once every 3 or 4 sprints.
+The Architecture must continue to be developed and refined through the execution process through a series of one day LAMA Huddles. These are one day events where a specific area of architecture is explored and disambiguated further. The LAMA Huddles must be spread across the execution of the development sprints. A good example for such a huddle is for the Data or Domain model review once the teams have put together their domain models. I recommend a huddle initially once in 2 Sprints and subsequently once every 3 or 4 sprints.
 
 The team will typically navigate between LAMA huddles and development sprints as shown below
 
