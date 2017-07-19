@@ -23,6 +23,7 @@ url: "http://ramachandran.io" # the base hostname & protocol for your site, e.g.
 #github_username:  hello
 
 disqus_shortname: ramachandran-io
+google_analytics: UA-102876878-1
 
 # Build settings
 markdown: kramdown
