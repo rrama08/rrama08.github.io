@@ -85,3 +85,10 @@ The article by Kate Nasser [link](http://katenasser.com/new-leaders-develop-your
 > Intuition is a synthesis of information and experience — especially about people — reapplied in a different time and space
 
 A good book to read further on this topic is [Blink: The Power of Thinking Without Thinking](https://www.amazon.com/dp/0316010669/)
+
+
+## Further Reading - Books on Leadership that I like
+
+* [The 21 Irrefutable Laws of Leadership](https://www.amazon.com/21-Irrefutable-Laws-Leadership-Anniversary/dp/0785288376/)
+* The concept of Level 5 Leadership in this book - [Good to Great: Why Some Companies Make the Leap](https://www.amazon.com/Good-Great-Some-Companies-Others-ebook/dp/B0058DRUV6/ref=sr_1_3?ie=UTF8&qid=1501445237&sr=8-3&keywords=level+5+leadership)
+* [The Effective Executive: The Definitive Guide to Getting the Right Things Done](https://www.amazon.com/Effective-Executive-Definitive-Harperbusiness-Essentials/dp/0060833459)
