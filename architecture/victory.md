@@ -72,7 +72,7 @@ Another key aspect of ownership is passion. With out passion, ownership is tough
 
 > Leaders don't create followers, they create more leaders - Tom Peters
 
-Relationships are built through **trust**, nurtured through genuine **care** for the others and their well being. A leader makes those around them considerably better than they are in the absence of the leader. Also please trust leaders who demonstrate **integrity** and clear **principles**.
+Relationships are built through **trust**, nurtured through genuine **care** for the others and their well being. A leader makes those around them considerably better than they are in the absence of the leader. Also people trust leaders who demonstrate **integrity** and clear **principles**.
 
 A successful leader needs to consider relationships as a true asset to themselves and those around them and need to nurture and develop these relationships on a daily basis.
 
