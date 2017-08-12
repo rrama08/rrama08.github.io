@@ -53,9 +53,9 @@ A leader also needs to be *Chaos to Clarity transformer* - able to take in infor
 
 ## Temperament (Leadership Temperament)
 
-An effective leader needs to have Temperament that project a sense of calm, confidence, thoughtfulness and stability. John Maxwell calls this the law of the Solid ground. Many things can and will go wrong and steady leadership in these difficult situations is essential to success.
+An effective leader needs to have Temperament that project a sense of calm, confidence, thoughtfulness and stability. Many things can and will go wrong and steady leadership in these difficult situations is essential to success.
 
-[7 Ways Leaders Maintain Their Composure in Difficult Times](https://www.forbes.com/sites/glennllopis/2014/01/20/7-ways-leaders-maintain-their-composure-in-difficult-times/#4432dd8d2157)
+[7 Ways Leaders Maintain Their Composure in Difficult Times](https://www.forbes.com/sites/glennllopis/2014/01/20/7-ways-leaders-maintain-their-composure-in-difficult-times)
 
 
 ## Ownership
