@@ -1,6 +1,6 @@
 ---
 layout: article
-title: High Impact Reading™️ - SIMPLE™️ Framework
+title: High Impact Reading - SIMPLE™️ Framework
 permalink: /hireading/
 comments: true
 published: true
@@ -11,13 +11,13 @@ published: true
 
 Is there a better way to read non-fiction and business books which dramatically increases our comprehension and knowledge? Is the traditional linear reading the most effective way of reading a book? How can I retain all the information in a book in my mind when I need them?
 
-I started with these questions and after thinking and tweaking for several years, I have created an approach that dramatically improves the quality of reading for any non-fiction reader. I call this **High Impact Reading™️**
+I started with these questions and after thinking and tweaking for several years, I have created an approach that dramatically improves the quality of reading for any non-fiction reader. I call this **High Impact Reading**
 
 * TOC
 {:toc}
 
 
-# *SIMPLE* Framework for High Impact Reading
+# *SIMPLE™️* Framework for High Impact Reading
 
 The following are the six steps to more effective reading. I have arranged these steps into an easy to remember framework called SIMPLE. The following diagram summarizes the framework.
 
