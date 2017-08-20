@@ -9,9 +9,10 @@ published: true
 # Lean Architecture Method for Agile
 I have been lately doing some thinking on a better approach for integration of holistic systems thinking and architecture into agile execution with out impacting speed and agility. I have built a rough outline of a process that can be used with low friction and considerable value to the overall system. I call this the Lean Architecture Method for Agile (LAMA)
 
+* TOC
+{:toc}
 
-
-7 Key principles of LAMA are:
+## 7 Key principles of LAMA
 1. **Collaborate on Architecture:** Architecture is a collaborative process. There is no room place for Ivory tower architectures in modern software development.
 1. **Think Systemically:** Think and establish clear principles at a system level, which enable teams to act locally based on these principles at the Sprint team level.
 1. **Preserve optionality:** Preserve optionality on some design decisions till they start impacting deliverables, but make obvious design decisions early to reduce ambiguity and keep the decision space lean and focused.
