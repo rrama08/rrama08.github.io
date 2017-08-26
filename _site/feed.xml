@@ -1,5 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-20T13:57:49+05:30</updated><id>http://localhost:4000/</id><title type="html">Renjith Ramachandran</title><subtitle>My blog to publish my thoughts on Technology, Strategy, Management
-</subtitle><entry><title type="html">High Impact Reading - SIMPLE framework</title><link href="http://localhost:4000/2017/08/20/hireading.html" rel="alternate" type="text/html" title="High Impact Reading - SIMPLE framework" /><published>2017-08-20T00:00:00+05:30</published><updated>2017-08-20T00:00:00+05:30</updated><id>http://localhost:4000/2017/08/20/hireading</id><content type="html" xml:base="http://localhost:4000/2017/08/20/hireading.html">&lt;p&gt;I have created a framework for a reading approach that is 10-100X more effective than traditional reading. Here is my &lt;strong&gt;High Impact Reading&lt;/strong&gt; article.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-26T19:25:59+05:30</updated><id>http://localhost:4000/</id><title type="html">Renjith Ramachandran</title><subtitle>My blog to publish my thoughts on Technology, Strategy, Management
+</subtitle><entry><title type="html">7 Dimensions of High Performance Software Teams</title><link href="http://localhost:4000/2017/08/26/hpt.html" rel="alternate" type="text/html" title="7 Dimensions of High Performance Software Teams" /><published>2017-08-26T00:00:00+05:30</published><updated>2017-08-26T00:00:00+05:30</updated><id>http://localhost:4000/2017/08/26/hpt</id><content type="html" xml:base="http://localhost:4000/2017/08/26/hpt.html">&lt;p&gt;High Performance software teams deliver results that are more than 10x better than average teams. They can solve challenging problems one after another to the amazement of others. In my experience with leading such teams these are the seven characteristics of High Performance Software Teams.&lt;/p&gt;
+
+&lt;h1 id=&quot;1-shared-vision-and-goals&quot;&gt;1. Shared Vision and Goals&lt;/h1&gt;
+&lt;p&gt;Create a vision that is properly communicated that each member of the team truly believes in. 3 Elements of this are&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Clarity of Vision - Properly Communicated, understood and bought in vision by all team members&lt;/li&gt;
+  &lt;li&gt;Clarity on Team Goals - Clarity of the Goals of the team at any moment of time&lt;/li&gt;
+  &lt;li&gt;Clarity on Individual Goals - Individual goals are clear and alignment of individual goals towards team goals is understood&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;High Performance software teams thrive on &lt;strong&gt;stretch or inspiring goals&lt;/strong&gt; which are often ineffective for average teams.&lt;/p&gt;
+
+&lt;h1 id=&quot;2-communication-and-discussion&quot;&gt;2. Communication and Discussion&lt;/h1&gt;
+&lt;p&gt;High Performance Software Teams actively practice open and clear communication, often erring on the side of more communication than less. Also the team actively engages in discussion with out fear of conflict till an agreement is reached.&lt;/p&gt;
+
+&lt;p&gt;High Performance teams move from discussion to agreement to commitment. Having a clear decision framework also will help the team in having active discussions, but getting behind the eventual decision.&lt;/p&gt;
+
+&lt;h1 id=&quot;3-team-alignment&quot;&gt;3. Team Alignment&lt;/h1&gt;
+&lt;p&gt;High Performance team will have a composition that will be in full alignment with the demand placed on the team. 2 types of alignment are important. &lt;strong&gt;Skills Alignment&lt;/strong&gt; ensures that the overall team has the right skills to meet the requirements. &lt;strong&gt;Passion Alignment&lt;/strong&gt; ensures that the team is composed of people who strive for things that are in alignment with the demand. Team will also have a the right &lt;strong&gt;Complimentarity&lt;/strong&gt; of individuals who collectively create the right skill and passion balance.&lt;/p&gt;
+
+&lt;p&gt;High Performance Teams will thrive in the right team atmosphere that is driven by the following.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;High Passion Index - Overall the teams level of passion towards the product/project that they are working on is high.&lt;/li&gt;
+  &lt;li&gt;High Collaboration Index - Collaboration is actively promoted with in the team and the team members like working together on tasks&lt;/li&gt;
+  &lt;li&gt;Active Diffusion of Tension - When tension occurs, it is diffused in a positive fashion and not left to linger. Passion creates tension, but tension could impact passion if not properly handled.&lt;/li&gt;
+  &lt;li&gt;High Like and Respect Index - Team members like each other, and also have respect for each other.&lt;/li&gt;
+  &lt;li&gt;High Commitment Index - High Commitment towards goals with in the team.&lt;/li&gt;
+  &lt;li&gt;Low Politics Index - Systematic elimination of politics and political motivations by the team leaders&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;4-intentional-culture&quot;&gt;4. Intentional Culture&lt;/h1&gt;
+&lt;p&gt;High Performance Software teams have intentional culture. An actively promoted culture can be one or a combination of the following:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Culture of Performance - Performance, execution and achievement is highly rewarded in team members. Compatible with teams focused on software delivery in more predictable environments.&lt;/li&gt;
+  &lt;li&gt;Culture of Innovation - Innovation and creativity is rewarded and actively promoted as a part of the team culture. Effective when the team is building an innovative product with new business models where features can have high value.&lt;/li&gt;
+  &lt;li&gt;Culture of Learning - Learning is actively promoted. Effective when the team is working on cutting edge domains which are unexplored.&lt;/li&gt;
+  &lt;li&gt;Culture of Giving - Often teams are more effective when they believe in something else beyond the the daily work. This promotes team building with a shared and powerful belief system. It is extremely important to keep this free of any religious connotations.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Team culture can be created and nurtured with Schein’s Organizational Culture model which include Visible Artifacts, Shared or Espoused Values and Basic Assumptions. For more details visit &lt;a href=&quot;https://en.wikipedia.org/wiki/Edgar_Schein&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;5-situational-leadership&quot;&gt;5. Situational Leadership&lt;/h1&gt;
+&lt;p&gt;High Performance teams need to be led effectively. The Situational Leadership Framework is good to understand in this context. Good article on Kenneth Blanchard’s and Paul Hersey’s situational leadership theory is &lt;a href=&quot;https://en.wikipedia.org/wiki/Situational_leadership_theory&quot;&gt;here&lt;/a&gt;. A Coaching model is most suited for High Performance Teams due to the high Task Competency and high Commitment levels of the team.&lt;/p&gt;
+
+&lt;p&gt;Also the 5th Level of leadership (Combination of Humility and Strong resolve) is ideal for leaders of High Performance Software teams. Link to this theory &lt;a href=&quot;https://www.mindtools.com/pages/article/level-5-leadership.htm&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The leaders of High Performance Software teams need to dedicate themselves to improving their leadership to achieve maximum performance from their teams.&lt;/p&gt;
+
+&lt;h1 id=&quot;6-high-levels-of-trust&quot;&gt;6. High Levels of Trust&lt;/h1&gt;
+&lt;p&gt;A key ingredient for effectiveness of a High Performance team is high levels of trust among team members and in the team’s leadership. With out this high level of trust the team will not achieve maximum performance. Key factors about Trust&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Trust takes time - It takes time and repeated interaction and collaboration to develop trust.&lt;/li&gt;
+  &lt;li&gt;Trust takes effort - Trust building takes intentional effort on the part of the Team’s leaders.&lt;/li&gt;
+  &lt;li&gt;Trust takes success - Often working on a hard or complex task and achieving success will engender trust in the team.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;7-effective-process-adoption&quot;&gt;7. Effective Process Adoption&lt;/h1&gt;
+&lt;p&gt;High Performance teams require a balanced process that is not arduous on the team, but gives a strong foundational model for execution for the team. Lean and agile models are typically effective for High Performance Software teams due to the strong commitment and competency factors of the team.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Process should be an enabler to the HPST and not a burden. It should enhance the performance of the team and not degrade it.&lt;/li&gt;
+  &lt;li&gt;Process should have built in Kaizen (Continuous improvement)&lt;/li&gt;
+  &lt;li&gt;Process should be supported with Tools &amp;amp; Automation that provide clear reinforcing metrics and documented predicability&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As a leader of a software team, you should look to optimize the team along these 7 dimensions to create a truly High Performance Software team than can achieve 10x multiple in performance compared to the baseline.&lt;/p&gt;
+
+&lt;p&gt;If you like this article please share it on Social media and also share via email to your friends and colleagues.&lt;/p&gt;</content><author><name></name></author><summary type="html">High Performance software teams deliver results that are more than 10x better than average teams. They can solve challenging problems one after another to the amazement of others. In my experience with leading such teams these are the seven characteristics of High Performance Software Teams.</summary></entry><entry><title type="html">High Impact Reading - SIMPLE framework</title><link href="http://localhost:4000/2017/08/20/hireading.html" rel="alternate" type="text/html" title="High Impact Reading - SIMPLE framework" /><published>2017-08-20T00:00:00+05:30</published><updated>2017-08-20T00:00:00+05:30</updated><id>http://localhost:4000/2017/08/20/hireading</id><content type="html" xml:base="http://localhost:4000/2017/08/20/hireading.html">&lt;p&gt;I have created a framework for a reading approach that is 10-100X more effective than traditional reading. Here is my &lt;strong&gt;High Impact Reading&lt;/strong&gt; article.&lt;/p&gt;
 
 &lt;p&gt;Happy Reading!&lt;/p&gt;
 
