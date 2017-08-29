@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Books I am Reading in July
-published: true
+published: false
 ---
 
 ## Business
