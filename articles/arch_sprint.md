@@ -7,7 +7,7 @@ published: true
 ---
 
 # Lean Architecture Method for Agile
-I have been lately doing some thinking on a better approach for integration of holistic systems thinking and architecture into agile execution with out impacting speed and agility. I have built a rough outline of a process that can be used with low friction and considerable value to the overall system. I call this the Lean Architecture Method for Agile (LAMA)
+I have been lately doing some thinking on a better approach for integration of holistic systems thinking and architecture into agile execution with out impacting speed and agility. I have built a 5 Day light weight architecture process that can be seamlessly integrated with agile and can provide clear architecture runway. I call this the Lean Architecture Method for Agile (LAMA)
 
 * TOC
 {:toc}
