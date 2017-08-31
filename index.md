@@ -8,7 +8,7 @@ layout: default
 
 
 
-## strategy
+## Strategy
 ### [Delta Digital Framework - A holistic approach for Digital Strategy](/deltadigital)
 
 
