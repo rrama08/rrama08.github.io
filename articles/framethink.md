@@ -54,21 +54,18 @@ A popular method that can be used for all three of these steps is [Mind mapping]
 Once the concept is understood in a very thorough fashion during the conceptualization stage, the next stage is to take the concept and package it in a manner that is easily consumable by others. This step involved fitting and shaping the elements of the concept into one of the expression techniques. There are primarily 8 different techniques for expression.
 
 1. **Dimensional Analysis** - Dimensional Analysis involved looking at some interesting dimensions of a concept and then looking at the interplay between these dimensions. a Good example of this is the [BCG Growth Share Matrix](https://en.wikipedia.org/wiki/Growth–share_matrix). In this method, the x-axis represents the Relative market share and the y-axis represents the Market growth rate. The relationship between the two creates an interesting way to position the business units with in a company into categories (Dogs, Stars, Cash Cows and Question Marks)
-![BCG Growth Share Matrix](/assets/images/frameworking/bcg.png)
-
 1. **Pyramid Structure** - A Pyramid Structure is represented by a triangle with multiple horizontal segments or Tiers. Very useful to explain concepts where something generic is represented by the base of the pyramid and the tip of the pyramid represents something most specific. Competency models are perfect examples of this approach. [Maslow's Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs) is a good example of this.
-![Maslow](/assets/images/frameworking/maslow.png)
+![1 and 2](/assets/images/frameworking/1_2.png)
 1. **Enumeration** - Enumeration is a technique to arrange the concepts in a framework into a numerical order. A good example of this is [7 Habits of Highly Effective People](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People) by Steven Covey.
-![7 Habits](/assets/images/frameworking/7Habits.png)
 1. **Mnemonic Fiiting** - Another common approach is to fit the concepts into a easily recallable mnemonic device. Chip and Dan Heath's [Made to Stick](http://heathbrothers.com/books/made-to-stick/) uses a mnemonic device "SUCCES" to convey their framework for creating truly sticky and viral ideas.
-![SUCCES](/assets/images/frameworking/SUCCES.png)
+![3 and 4](/assets/images/frameworking/3_4.png)
 1. **Sequencing** - Sequencing is arranging components of the framework in a simple sequence that is intuitive to make sense to the consumer of the framework. Kotter's [8 Steps to Change](https://www.leadershipthoughts.com/kotters-8-step-change-model/) is an example of sequencing and enumeration combined.
 1. **Virtuous Circles** - Virtuous circles are set of concepts that reinforce and improve each other creating a virtuous effect of improvement. Bain and Company's [Customer wheel](http://www.bain.com/consulting-services/customer-strategy-and-marketing/) is an example of this framework.
-![Customer Wheel](/assets/images/frameworking/customerwheel.png)
+![5 and 6](/assets/images/frameworking/5_6.png)
 1. **Venn Diagram** - Another way to convey a concept is to show an intersection between the various groups to show an overlapping relationship between them. It is great at visually organizing information and useful especially with sets to communicate overlap. Jim Collin's [Hedgehog concept](https://www.mindtools.com/pages/article/hedgehog-concept.htm) from the book "[Good to Great](https://www.amazon.com/Good-Great-Some-Companies-Others-ebook/dp/B0058DRUV6/ref=sr_1_1?ie=UTF8&qid=1504544335&sr=8-1&keywords=good+to+great)" is a good example of this.
-![Hedgehog Concept](/assets/images/frameworking/Hedgehog-Concept.png)
 1. **Hybrid/Composite** - Some concepts are too complex to represent with these foundational representation. So they either use a combination of these methods to represent this concept. Good example of this is the [Value Chain framework](https://en.wikipedia.org/wiki/Value_chain) by Potter.
 ![Porter's Value Chain](/assets/images/frameworking/PorterValueChain.png)
+![7 and 8](/assets/images/frameworking/7_8.png)
 
 My own meta-framework on Frameworking in this article uses a combination of several techniques
 * Mnemonic Fitting (CEO)
@@ -97,4 +94,6 @@ The following are the steps that form a virtuous circle:
 1. Keep using the framework at any opportunity you have. Continue to fine tune as you get more feedback about this.
 
 # In Conclusion
-I hope this meta-framework gave you a good foundation to building your own frameworks that inspire people. If you liked this article, please share with others who may find it useful. Thank you for reading. Also any feedback in the comments section will be appreciated.
+I hope this meta-framework gave you a good foundation to building your own frameworks that inspire people. If you liked this article, please share with others who may find it useful. Thank you for reading. Any feedback in the comments section will be appreciated.
+
+Visit [ramachandran.io](http://ramachandran.io) for other interesting frameworks by me.
