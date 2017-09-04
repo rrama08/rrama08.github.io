@@ -64,7 +64,6 @@ Once the concept is understood in a very thorough fashion during the conceptuali
 ![5 and 6](/assets/images/frameworking/5_6.png)
 1. **Venn Diagram** - Another way to convey a concept is to show an intersection between the various groups to show an overlapping relationship between them. It is great at visually organizing information and useful especially with sets to communicate overlap. Jim Collin's [Hedgehog concept](https://www.mindtools.com/pages/article/hedgehog-concept.htm) from the book "[Good to Great](https://www.amazon.com/Good-Great-Some-Companies-Others-ebook/dp/B0058DRUV6/ref=sr_1_1?ie=UTF8&qid=1504544335&sr=8-1&keywords=good+to+great)" is a good example of this.
 1. **Hybrid/Composite** - Some concepts are too complex to represent with these foundational representation. So they either use a combination of these methods to represent this concept. Good example of this is the [Value Chain framework](https://en.wikipedia.org/wiki/Value_chain) by Potter.
-![Porter's Value Chain](/assets/images/frameworking/PorterValueChain.png)
 ![7 and 8](/assets/images/frameworking/7_8.png)
 
 My own meta-framework on Frameworking in this article uses a combination of several techniques
