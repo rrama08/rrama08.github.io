@@ -9,6 +9,7 @@ layout: default
 
 ## Strategy
 * [Delta Digital Framework - A holistic approach for Digital Strategy](/deltadigital)
+* [Frameworking™️ - True success with Ideas](/framethink)
 
 ## Architecture and technology
 * [Lean Architecture Method for Agile](/lama/)
