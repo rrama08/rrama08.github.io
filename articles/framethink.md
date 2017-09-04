@@ -86,8 +86,8 @@ The following are the steps that form a virtuous circle:
 * Does it make the audience think?
 * Does it make the audience share?
 
-1. Pitch the framework to others to get initial feedback
-1. Incorporate feedback from test pitches and make changes
+1. Test the framework with others to get initial feedback
+1. Incorporate feedback from tests and make changes
 1. Iterate steps 1-3 till it is good enough to publish
 1. Publish in your blog, company presentation or other forum.
 1. Keep using the framework at any opportunity you have. Continue to fine tune as you get more feedback about this.
