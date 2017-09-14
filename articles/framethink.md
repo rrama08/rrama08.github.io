@@ -1,10 +1,10 @@
 ---
 layout: article
-title: Frameworking™️ - True success with Ideas
+title: Framework Thinking - True success with Ideas
 permalink: /framethink/
 comments: true
 ---
-Frameworking™️ is a way of structuring the thinking process and expression of ideas in a visual manner. Many of the viral and successfully diffused ideas are structured as frameworks.
+Framework Thinking is a way of structuring the thinking process and expression of ideas in a visual manner. Many of the viral and successfully diffused ideas are structured as frameworks.
 
 for e.g. One of the most famous strategy frameworks is the five forces framework by Potter. This framework expresses the competitive strategy approach used by firms to improve their position with in a industry.
 
@@ -15,7 +15,7 @@ These frameworks are able to communicate complex concepts in a simple, memorable
 - TOC
 {:toc}
 
-# Why Frameworking?
+# Why Framework thinking?
 
 ## Framework for Higher Order Thinking
 Thinking in the form of a framework will enable the thinker to fine tune the idea or concept and sharpen its foundation incrementally till it is rock solid. It also allows looking at the idea or concept from multiple angles to make sure all conceptual aspects are considered and structured in an easy to understand, digest and remember form. It elevates thinking from a simple linear approach to multi-dimensional and relational thinking - considering dimensions against each other and their relationships to each other.
@@ -28,26 +28,26 @@ Framework also enables easy memorization of the core concepts conveyed through a
 ## Framework as a Thought Multiplier
 Another aspect of a framework that is interesting is the ability of the framework to act as a multiplier of thoughts to the consumer of the framework. A properly constructed framework inspires thinking by the consumer of the framework to add their own experiences, anecdotes, facts etc to the concept conveyed in the framework.
 
-# Frameworking Techniques
+# Framework Thinking Techniques
 
 I love creating frameworks. Some of the frameworks I have externally published are available at [ramachandran.io](http://www.ramachandran.io).
 In this article, I will provide a meta-framework for creating your own frameworks. This enables, any concept to be conveyed in a manner that is 10x more effective that simple textual or verbal communication of the same concept.
 
-The Meta-Framework is called CEO method to frameworking. C for Conceptualization, E for expression and O for Optimization. A framework needs careful thought, expression and optimization in order for it to be useful.
+The Meta-Framework is called CEO method to framework thinking. C for Conceptualization, E for expression and O for Optimization. A framework needs careful thought, expression and optimization in order for it to be useful.
 
 The following diagram shows the CEO method.
 
-![CEO Method for Frameworking](/assets/images/ceomethod.png)
+![CEO Method for Framework Thinking](/assets/images/ceomethod.png)
 
 ## Conceptualization
 
 During this stage, the core idea needs to be defined and developed. 3 Steps can be used to achieve this.
 
-1. **Define** - Achieve clarity on the core idea for frameworking. Can be defined by writing out a statement of the core idea.
+1. **Define** - Achieve clarity on the core idea for framework thinking. Can be defined by writing out a statement of the core idea.
 1. **Breakdown** - This step involves breaking down the core idea into as many component parts as possible. An approach called [MECE](https://en.wikipedia.org/wiki/MECE_principle) (Mutually exclusive Collectively Exhaustive) is popular in the consulting world. Also any relevant dimensions that are interesting for the concept needs to be identified. For e.g. Looking at Leadership along dimensions of directive vs supporting behavior of leaders (Approach used in Situational leadership).
 1. **Relationships and Grouping** - The next step involves, creating as many relationships and structure among components as possible.
 
-A popular method that can be used for all three of these steps is [Mind mapping](https://en.wikipedia.org/wiki/Mind_map) (An approach created by Tony Buzan). A cloud based software program that I typically used for this is [Coogle](https://coogle.it).
+A popular method that can be used for all three of these steps is [Mind mapping](https://en.wikipedia.org/wiki/Mind_map) (An approach created by Tony Buzan). A cloud based software program that I typically use for this is [Coogle](https://coogle.it).
 
 ## Expression
 
@@ -72,10 +72,10 @@ My own meta-framework on Frameworking in this article uses a combination of seve
 * Enumeration - Techniques for expressing framework
 * Virtuous Circle - Optimization stage
 
-Beyond these techniques there are several other techniques not covered here including tree structures, layer cakes, geographic fitting (Triangles, hexagons, pentagons) etc. The key is to understand using diagramming techniques to clearly convey the idea is a way that is so simple and  effective.
+Beyond these techniques there are several other techniques not covered here including tree structures, layer cakes, Geometric fitting (Triangles, hexagons, pentagons) etc. The key is to understand using diagramming techniques to clearly convey the idea is a way that is so simple and  effective.
 
 ## Optimization
-The last step of frameworking is to optimize the concept and the expression of the concept to make it crystal clear and memorable for the consumers of the framework.
+The last step of framework thinking is to optimize the concept and the expression of the concept to make it crystal clear and memorable for the consumers of the framework.
 
 The following are the steps that form a virtuous circle:
 
