@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Monitoring Google Play for App/APK Version Changes
-permalink: /appmonitor
+permalink: /appmonitor/
 comments: true
 published: true
 ---
