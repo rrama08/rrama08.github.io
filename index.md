@@ -21,6 +21,11 @@ layout: default
 # Demystify series
 * Coming Soon: Demystifying BlockChain
 * Coming Soon: Demystifying Machine Learning
+* Coming Soon: Demystifying Deep Learning
+
+
+# Code and development
+* [Monitoring APK Version Changes in Google Play](/appmonitor/)
 
 # Thoughts and Commentaries
 * [A Quantitative look at Agile](http://ramachandran.io/2017/08/10/AgileQuant.html)

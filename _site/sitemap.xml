@@ -31,6 +31,9 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/appmonitor</loc>
+</url>
+<url>
 <loc>http://localhost:4000/lama/</loc>
 </url>
 <url>
