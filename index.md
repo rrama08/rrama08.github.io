@@ -14,6 +14,7 @@ layout: default
 
 ## Architecture and technology
 * [Lean Architecture Method for Agile - LAMA™️](/lama/)
+* [Great Code - 5 Level Maturity Model](/greatcode/)
 
 ## Personal Development
 * [High Impact Reading - SIMPLE™️ Framework](/hireading)
