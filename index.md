@@ -19,12 +19,6 @@ layout: default
 ## Personal Development
 * [High Impact Reading - SIMPLE™️ Framework](/hireading)
 
-# Demystify series
-* Coming Soon: Demystifying BlockChain
-* Coming Soon: Demystifying Machine Learning
-* Coming Soon: Demystifying Deep Learning
-
-
 # Code and development
 * [Monitoring APK Version Changes in Google Play](/appmonitor/)
 
