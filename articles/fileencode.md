@@ -11,11 +11,11 @@ This is a quick way to understand the encoding of a file and also to convert a f
 1. Check the file encoding type
 ```
 shell>file -I  file1.csv
-shell>file1.csv: text/plain; charset=utf-16le
+file1.csv: text/plain; charset=utf-16le
 ```
 
 2. If needed convert the file to the necessary format
 for e.g.
 ```
-iconv -f utf-16le -t utf-8 < file1.csv > file1.utf8.csv
+shell>iconv -f utf-16le -t utf-8 < file1.csv > file1.utf8.csv
 ```
