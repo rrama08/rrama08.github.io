@@ -31,7 +31,10 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/appmonitor</loc>
+<loc>http://localhost:4000/downloadapk/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/appmonitor/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/lama/</loc>
@@ -41,6 +44,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/framethink/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/greatcode/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/hireading/</loc>

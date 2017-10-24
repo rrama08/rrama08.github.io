@@ -21,6 +21,8 @@ layout: default
 
 # Code and development
 * [Monitoring APK Version Changes in Google Play](/appmonitor/)
+* [Downloading an APK to a Mac/PC for Analysis](/downloadapk/)
+* [File Encoding/Decoding tricks for Unix](/filencode/)
 
 # Thoughts and Commentaries
 * [A Quantitative look at Agile](http://ramachandran.io/2017/08/10/AgileQuant.html)

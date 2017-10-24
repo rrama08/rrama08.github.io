@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Monitoring Google Play for App/APK Version Changes</title>
+  <title>Dev Trick - Downloading APK to your laptop</title>
   <meta name="description" content="My blog to publish my thoughts on Technology, Strategy, Management">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/appmonitor">
+  <link rel="canonical" href="http://localhost:4000/downloadapk/">
   <link rel="alternate" type="application/rss+xml" title="Renjith Ramachandran" href="/feed.xml">
   <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -18,16 +18,16 @@
   
 
   <!-- Begin Jekyll SEO tag v2.2.3 -->
-<title>Monitoring Google Play for App/APK Version Changes | Renjith Ramachandran</title>
-<meta property="og:title" content="Monitoring Google Play for App/APK Version Changes" />
+<title>Dev Trick - Downloading APK to your laptop | Renjith Ramachandran</title>
+<meta property="og:title" content="Dev Trick - Downloading APK to your laptop" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="My blog to publish my thoughts on Technology, Strategy, Management" />
 <meta property="og:description" content="My blog to publish my thoughts on Technology, Strategy, Management" />
-<link rel="canonical" href="http://localhost:4000/appmonitor" />
-<meta property="og:url" content="http://localhost:4000/appmonitor" />
+<link rel="canonical" href="http://localhost:4000/downloadapk/" />
+<meta property="og:url" content="http://localhost:4000/downloadapk/" />
 <meta property="og:site_name" content="Renjith Ramachandran" />
 <script type="application/ld+json">
-{"@context":"http://schema.org","@type":"WebPage","headline":"Monitoring Google Play for App/APK Version Changes","description":"My blog to publish my thoughts on Technology, Strategy, Management","url":"http://localhost:4000/appmonitor"}</script>
+{"@context":"http://schema.org","@type":"WebPage","headline":"Dev Trick - Downloading APK to your laptop","description":"My blog to publish my thoughts on Technology, Strategy, Management","url":"http://localhost:4000/downloadapk/"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -67,7 +67,12 @@
           
             
             
-            <a class="page-link" href="/appmonitor">Monitoring Google Play for App/APK Version Changes</a>
+            <a class="page-link" href="/downloadapk/">Dev Trick - Downloading APK to your laptop</a>
+            
+          
+            
+            
+            <a class="page-link" href="/appmonitor/">Monitoring Google Play for App/APK Version Changes</a>
             
           
             
@@ -83,6 +88,11 @@
             
             
             <a class="page-link" href="/framethink/">Framework Thinking - True success with Ideas</a>
+            
+          
+            
+            
+            <a class="page-link" href="/greatcode/">Great Code - 5 Levels of Maturity</a>
             
           
             
@@ -136,111 +146,51 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Monitoring Google Play for App/APK Version Changes</h1>
+    <h1 class="post-title" itemprop="name headline">Dev Trick - Downloading APK to your laptop</h1>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>If you ever need to automatically monitor whether an app in <em>Google Play</em> has been updated. I have had cases in the past where we wanted to know when our Customer’s/Partner’s apps were updated as soon as possible. Here is a simple Python script that helps with this automation.</p>
+    <p>Quick 3 Step Process to download a 3rd party APK to your Mac or PC for Quick Analysis or sharing outside of the App store.</p>
 
-<p>You will need to run this script in CRON (recommended) or in a loop to check periodically.</p>
+<h1 id="step-1-find-the-path-for-the-apk">Step 1: Find the path for the APK</h1>
+<ul>
+  <li>Easiest method is search for the App in the Appstore via your Chrome or Safari on ypur Mac/PC.</li>
+  <li>The Package name will be in the URL of the App Detail page.</li>
+</ul>
 
-<p>Need the following packages (Python 3):</p>
+<h1 id="step-2-find-the-path-for-the-apk-in-your-android-device">Step 2: Find the path for the APK in your Android Device</h1>
+<p><em>Note: This assumes you have an Android Device. There are Chrome plugin based or browser based downloaders if this is not an option. Be careful since some of these extensions can be malware.</em></p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>pip3 install requests
-pip3 install bs4
-pip3 install tweepy
-
-</code></pre>
-</div>
-
-<h2 id="imports">Imports</h2>
-<div class="highlighter-rouge"><pre class="highlight"><code>import requests
-from bs4 import BeautifulSoup
-import re
-import tweepy
-import time
-</code></pre>
-</div>
-
-<h2 id="twitter-access-stuff---since-this-example-is-using-direct-message-as-an-example">Twitter Access Stuff - Since this example is using direct message as an example</h2>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>
-## Twitter Access Stuff- Set this up at developer.twitter.com
-consumer_key="COPY_YOURS_HERE"
-consumer_secret = "COPY_YOURS_HERE"
-access_token = "COPY_YOURS_HERE"
-access_token_secret = "COPY_YOURS_HERE"
-</code></pre>
-</div>
-
-<h2 id="check-the-version-in-the-store">Check the version in the store</h2>
-<p>By screen scraping of the Google Play Store using the Beautiful Soup package</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>def checkVersionInStore(packageName):
-    # Act like a regular browser
-    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
-
-    # load the page from Google Play
-    page = requests.get("https://play.google.com/store/apps/details?id="+packageName, headers=headers)
-
-    soup = BeautifulSoup(page.content, 'html.parser')
-
-    version = soup.find_all("div", {"itemprop" : "softwareVersion"})
-
-    # Need to add more defensive code here. Omitted for simplicity
-    versionText=str(version[0].text)
-
-    return versionText
-</code></pre>
-</div>
-
-<h2 id="create-a-mechanism-to-send-a-notification">Create a mechanism to send a notification</h2>
-<p>For e.g. Tweet a direct message to a set of users about the change in version</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code># Way to Communicate to users via a Direct Message in Twitter
-def sendTweet(twitterIds, message):
-    # Authenticate to Twitter
-    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-    auth.set_access_token(access_token, access_token_secret)
-    api = tweepy.API(auth)
-
-    # Sending Message via Tweet
-    print("Sending Message via Tweet - " + message)
-
-    # Send Tweet
-    for tid in twitterIds:
-        api.send_direct_message(user=tid, text=message)
-</code></pre>
-</div>
-
-<h2 id="put-it-together">Put it together</h2>
-<div class="highlighter-rouge"><pre class="highlight"><code>def checkForAppChange(packageName, expectedVersion, expectedVersionFoundList, newVersionFoundList):
-
-    versionText = checkVersionInStore(packageName)
-
-    # if the Verson found is the same or different, send the notification
-    if (versionText.find(expectedVersion) != -1):
-        sendTweet(expectedVersionFoundList, "Version has not changed:" + versionText)
-    else:
-        sendTweet(newVersionFoundList, "****VERSION IS CHANGED****:" + versionText)
-</code></pre>
-</div>
-
-<h2 id="finally-make-the-call-for-your-apps">Finally make the call for your apps</h2>
-
-<div class="highlighter-rouge"><pre class="highlight"><code># Main
-print("Checking App Version Change:" + time.asctime( time.localtime(time.time())))
-
-# Using paypal app as a sample
-checkForAppChange(packageName="com.paypal.android.p2pmobile",
-                  expectedVersion="6.14.1",
-                  expectedVersionFoundList=["twitter_id_1"],
-                  newVersionFoundList=["twitter_id_1", "twitter_id_2"])
+<div class="highlighter-rouge"><pre class="highlight"><code>adb shell pm path &lt;package-name&gt;
 
 </code></pre>
 </div>
+<h1 id="step-3-download-the-apk-using-the-path-identified-in-step-1">Step 3: Download the APK using the path identified in step 1</h1>
+<div class="highlighter-rouge"><pre class="highlight"><code>adb pull &lt;path&gt;
+</code></pre>
+</div>
 
-<p>It is all put together in the following <a href="https://gist.github.com/rrama08/00cde3ae94de71330d3ad95ef8859cdd">Gyst</a></p>
+<h1 id="for-example-lets-try-this-with-facebook-apk">For example let’s try this with Facebook APK.</h1>
+
+<p><strong>Step 1:</strong> Search facebook on Play Store and click the icon. The URL of the page loaded will have the package name.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>https://play.google.com/store/apps/details?id=**com.facebook.katana**
+</code></pre>
+</div>
+
+<p><strong>Step 2</strong>: Get the path</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>terminal&gt;adb shell pm path com.facebook.katana
+package:/data/app/com.facebook.katana-1/base.apk
+</code></pre>
+</div>
+<p><strong>Step 3</strong>: Get the APK file</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>terminal&gt;adb pull /data/app/com.facebook.katana-1/base.apk
+/data/app/com.facebook.katana-1/base.apk: 1 file pulled. 5.0 MB/s (86909009 bytes in 16.531s)
+</code></pre>
+</div>
+
+<p>Enjoy!</p>
 
   </div>
 

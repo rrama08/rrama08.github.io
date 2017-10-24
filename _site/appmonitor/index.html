@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Monitoring Google Play for App/APK Version Changes</title>
+  <meta name="description" content="My blog to publish my thoughts on Technology, Strategy, Management">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/appmonitor/">
+  <link rel="alternate" type="application/rss+xml" title="Renjith Ramachandran" href="/feed.xml">
+  <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  
+
+  <!-- Begin Jekyll SEO tag v2.2.3 -->
+<title>Monitoring Google Play for App/APK Version Changes | Renjith Ramachandran</title>
+<meta property="og:title" content="Monitoring Google Play for App/APK Version Changes" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My blog to publish my thoughts on Technology, Strategy, Management" />
+<meta property="og:description" content="My blog to publish my thoughts on Technology, Strategy, Management" />
+<link rel="canonical" href="http://localhost:4000/appmonitor/" />
+<meta property="og:url" content="http://localhost:4000/appmonitor/" />
+<meta property="og:site_name" content="Renjith Ramachandran" />
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"WebPage","headline":"Monitoring Google Play for App/APK Version Changes","description":"My blog to publish my thoughts on Technology, Strategy, Management","url":"http://localhost:4000/appmonitor/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" href="/">Renjith Ramachandran</a>
+
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          <!--
+            
+            
+          
+            
+            
+            <a class="page-link" href="/about/">About</a>
+            
+          
+            
+            
+            <a class="page-link" href="/downloadapk/">Dev Trick - Downloading APK to your laptop</a>
+            
+          
+            
+            
+            <a class="page-link" href="/appmonitor/">Monitoring Google Play for App/APK Version Changes</a>
+            
+          
+            
+            
+            <a class="page-link" href="/lama/">LAMA</a>
+            
+          
+            
+            
+            <a class="page-link" href="/deltadigital/">Delta Digital Framework</a>
+            
+          
+            
+            
+            <a class="page-link" href="/framethink/">Framework Thinking - True success with Ideas</a>
+            
+          
+            
+            
+            <a class="page-link" href="/greatcode/">Great Code - 5 Levels of Maturity</a>
+            
+          
+            
+            
+            <a class="page-link" href="/hireading/">High Impact Reading - SIMPLE™️ Framework</a>
+            
+          
+            
+            
+            <a class="page-link" href="/hpt/">7 Dimensions of High Performance Software Teams</a>
+            
+          
+            
+            
+            <a class="page-link" href="/">My Frameworks</a>
+            
+          
+            
+            
+          
+            
+            
+            <a class="page-link" href="/swtrends/">5 Key Software Trends of 2017</a>
+            
+          
+            
+            
+            <a class="page-link" href="/victori/">VICTORI Model for Effective Leadership in Technology</a>
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+           -->
+
+          <a class="page-link" href="/about">About</a>
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Monitoring Google Play for App/APK Version Changes</h1>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>If you ever need to automatically monitor whether an app in <em>Google Play</em> has been updated. I have had cases in the past where we wanted to know when our Customer’s/Partner’s apps were updated as soon as possible. Here is a simple Python script that helps with this automation.</p>
+
+<p>You will need to run this script in CRON (recommended) or in a loop to check periodically.</p>
+
+<p>Need the following packages (Python 3):</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>pip3 install requests
+pip3 install bs4
+pip3 install tweepy
+
+</code></pre>
+</div>
+
+<h2 id="imports">Imports</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code>import requests
+from bs4 import BeautifulSoup
+import re
+import tweepy
+import time
+</code></pre>
+</div>
+
+<h2 id="twitter-access-stuff---since-this-example-is-using-direct-message-as-an-example">Twitter Access Stuff - Since this example is using direct message as an example</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>
+## Twitter Access Stuff- Set this up at developer.twitter.com
+consumer_key="COPY_YOURS_HERE"
+consumer_secret = "COPY_YOURS_HERE"
+access_token = "COPY_YOURS_HERE"
+access_token_secret = "COPY_YOURS_HERE"
+</code></pre>
+</div>
+
+<h2 id="check-the-version-in-the-store">Check the version in the store</h2>
+<p>By screen scraping of the Google Play Store using the Beautiful Soup package</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>def checkVersionInStore(packageName):
+    # Act like a regular browser
+    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+
+    # load the page from Google Play
+    page = requests.get("https://play.google.com/store/apps/details?id="+packageName, headers=headers)
+
+    soup = BeautifulSoup(page.content, 'html.parser')
+
+    version = soup.find_all("div", {"itemprop" : "softwareVersion"})
+
+    # Need to add more defensive code here. Omitted for simplicity
+    versionText=str(version[0].text)
+
+    return versionText
+</code></pre>
+</div>
+
+<h2 id="create-a-mechanism-to-send-a-notification">Create a mechanism to send a notification</h2>
+<p>For e.g. Tweet a direct message to a set of users about the change in version</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># Way to Communicate to users via a Direct Message in Twitter
+def sendTweet(twitterIds, message):
+    # Authenticate to Twitter
+    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+    auth.set_access_token(access_token, access_token_secret)
+    api = tweepy.API(auth)
+
+    # Sending Message via Tweet
+    print("Sending Message via Tweet - " + message)
+
+    # Send Tweet
+    for tid in twitterIds:
+        api.send_direct_message(user=tid, text=message)
+</code></pre>
+</div>
+
+<h2 id="put-it-together">Put it together</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code>def checkForAppChange(packageName, expectedVersion, expectedVersionFoundList, newVersionFoundList):
+
+    versionText = checkVersionInStore(packageName)
+
+    # if the Verson found is the same or different, send the notification
+    if (versionText.find(expectedVersion) != -1):
+        sendTweet(expectedVersionFoundList, "Version has not changed:" + versionText)
+    else:
+        sendTweet(newVersionFoundList, "****VERSION IS CHANGED****:" + versionText)
+</code></pre>
+</div>
+
+<h2 id="finally-make-the-call-for-your-apps">Finally make the call for your apps</h2>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># Main
+print("Checking App Version Change:" + time.asctime( time.localtime(time.time())))
+
+# Using paypal app as a sample
+checkForAppChange(packageName="com.paypal.android.p2pmobile",
+                  expectedVersion="6.14.1",
+                  expectedVersionFoundList=["twitter_id_1"],
+                  newVersionFoundList=["twitter_id_1", "twitter_id_2"])
+
+</code></pre>
+</div>
+
+<p>It is all put together in the following <a href="https://gist.github.com/rrama08/00cde3ae94de71330d3ad95ef8859cdd">Gyst</a></p>
+
+  </div>
+
+  
+    
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--<h2 class="footer-heading">Renjith Ramachandran</h2>-->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Renjith Ramachandran
+            
+            </li>
+            
+            <li><a href="mailto:rramachandran@smu.edu">rramachandran@smu.edu</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <!--<div class="footer-col footer-col-3">
+        <p>My blog to publish my thoughts on Technology, Strategy, Management
+</p>
+      </div> -->
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
