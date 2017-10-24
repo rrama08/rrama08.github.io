@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Determine or Change the File Encoding
+title: Determine or Change a File's Encoding
 permalink: /filencode/
 comments: true
 published: true
