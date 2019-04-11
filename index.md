@@ -10,7 +10,7 @@ layout: default
 
 ## Strategy
 * [Delta™️ Digital Framework - A holistic approach for Digital Strategy](/deltadigital)
-* [Framework Thinking - True success with Ideas](/framethink/)
+* [Framework Thinking - True success with Ideas](/articles/framethink/)
 
 ## Architecture and technology
 * [Lean Architecture Method for Agile - LAMA™️](/lama/)
