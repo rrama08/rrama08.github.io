@@ -2,7 +2,7 @@
 layout: article
 title: 7 Dimensions of High Performance Software Teams
 permalink: /hpt/
-comments: true
+comments: false
 ---
 High Performance software teams deliver results that are more than 10x better than average teams. They can solve challenging problems one after another to the amazement of others. They deliver magical results instead of marginal results. Having built and run several high performance software teams over the years, in my view these are the seven characteristics of such teams.
 

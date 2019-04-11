@@ -2,7 +2,7 @@
 layout: article
 title: Determine or Change a File's Encoding
 permalink: /filencode/
-comments: true
+comments: false
 published: true
 ---
 

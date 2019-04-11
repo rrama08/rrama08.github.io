@@ -2,7 +2,7 @@
 layout: article
 title: Great Code - 5 Levels of Maturity
 permalink: /greatcode/
-comments: true
+comments: false
 published: true
 ---
 

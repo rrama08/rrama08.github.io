@@ -2,7 +2,7 @@
 layout: article
 title: Impactful Reading - SIMPLE™️ Framework
 permalink: /hireading/
-comments: true
+comments: false
 published: true
 ---
 ![HIREADING](/assets/images/hirmain.png)

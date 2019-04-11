@@ -2,7 +2,7 @@
 layout: article
 title: Delta Digital Framework
 permalink: /deltadigital/
-comments: true
+comments: false
 published: true
 ---
 Often, Digital strategies that companies follow have a unitary focus toward Customer interaction and related interfaces only. **My View: A true Digital Enterprise must leverage Digital for all its interaction points - Customers, Employees and Suppliers/Partners** . I propose the Delta Framework for Digital strategy.

@@ -2,7 +2,7 @@
 layout: article
 title: LAMA
 permalink: /lama/
-comments: true
+comments: false
 published: true
 ---
 

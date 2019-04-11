@@ -2,7 +2,7 @@
 layout: article
 title: Dev Trick - Downloading APK to your laptop
 permalink: /downloadapk/
-comments: true
+comments: false
 published: true
 ---
 

@@ -2,7 +2,7 @@
 layout: article
 title: Monitoring Google Play for App/APK Version Changes
 permalink: /appmonitor/
-comments: true
+comments: false
 published: true
 ---
 If you ever need to automatically monitor whether an app in *Google Play* has been updated. I have had cases in the past where we wanted to know when our Customer's/Partner's apps were updated as soon as possible. Here is a simple Python script that helps with this automation.

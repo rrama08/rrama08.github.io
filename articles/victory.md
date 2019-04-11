@@ -2,7 +2,7 @@
 layout: article
 title: VICTORI Model for Effective Leadership in Technology
 permalink: /victori/
-comments: true
+comments: false
 published: true
 ---
 
